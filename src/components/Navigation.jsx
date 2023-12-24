@@ -22,7 +22,9 @@ const {pathname} = useLocation();
   return (
     <header className={`px-4 ${scrollPosition > 300 ? 'fixed animate-down shadow-2xl bg-white w-full z-50' : 'relative'}`}>
       <nav className={`flex justify-between`}>
+        <Link to={'/'}>
         <img src="/assets/logo.jpg" className={`${scrollPosition > 300 ? 'w-32' : 'w-52'} object-contain pb-[0.5em]`} alt="brand" />
+        </Link>
         <div className="h-full">
           <div className="flex my-10 items-center gap-12">
             <button className="border-4 hover:bg-primary hover:text-white transition-colors duration-500 border-primary  text-primary  px-4 py-2">
