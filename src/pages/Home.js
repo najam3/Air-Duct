@@ -315,7 +315,7 @@ const Home = () => {
               <div
                 className={`absolute w-full flex justify-between flex-col ${
                   slideStates[index]
-                    ? "translate-y-[0%] opacity-100"
+                    ? "-translate-y-[100%] opacity-100"
                     : "pointer-events-none"
                 } transition-all duration-500 opacity-0 text-white px-4 py-8 bg-[#003b60e3] translate-y-[100%] h-[100%]`}
               >
@@ -476,7 +476,7 @@ const Home = () => {
               <div
                 className={`absolute w-full flex justify-between flex-col ${
                   slideStates[index]
-                    ? "translate-y-[0%] opacity-100"
+                    ? "-translate-y-[100%] opacity-100"
                     : "pointer-events-none"
                 } transition-all duration-500 opacity-0 text-white px-4 py-8 bg-[#003b60e3] translate-y-[100%] h-[100%]`}
               >
