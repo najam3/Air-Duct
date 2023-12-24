@@ -1,13 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Raleway', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card{
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+border: 0;
+font-weight: 400;
 }
+
+
+
+
+ p {
+    font-size: 20px;
+    color: #868686;
+    font-weight: 400;
+    line-height: 30px;
+ }
+
+ .client-card {
+    border: 1px solid #cfd9db;
+    
+ }
+
+ .bold {
+   font-weight: 700 !important;
+ }
+
+ .button-icon {
+   background: url('./../public/assets/menu-bar.png') center no-repeat;
+   background-size: contain;
+   width: 50px;
+   height: 50px;
+   border: none;
+   padding: 0;
+ }
+
+
+ .empty {
+   pointer-events: none !important;
+ }
+
+.animate-down {
+   animation: slide-down 0.5s ease-in forwards;
+}
+
+@media (max-width: 1037px) {
+   .bug {
+      font-size: 1.3rem;
+   }
+}
+
+@keyframes slide-down {
+   from {
+      top: -40px;
+   }
+   to {
+      top: 0;
+   }
+}
+
+/* Home.jsx */
+
+.home {
+   background: url(../public/assets/r5-jumbo.jpg) center no-repeat;
+   background-size: cover;
+   background-position: top;
+   padding: 7em 1.5em;
+}
+
+ @media (min-width: 768px) and (max-width: 980px)  {
+         .card {
+             width: 340px !important;
+         }
+ }
+
+ .r1Vent {
+   background: url("../public/assets/r1-ventilation.jpg") center no-repeat;
+   background-size: cover;
+   width: 100%;
+ }
+ .r2Vent {
+   background: url("../public/assets/r1-cleaning-ducts-in-home.jpg") center no-repeat;
+   background-size: cover;
+   width: 100%;
+ }
+
+ .card-bg {
+   background: url("../public/assets/r1-duct-cleaning.png") center no-repeat;
+   background-size: cover;
+   width: 100%;
+ }
+
+ .card-overlay {
+   background: url("../public/assets/overlay-blue-grayscale.png") center no-repeat;
+   background-size: cover;
+   width: 100%;
+ }
