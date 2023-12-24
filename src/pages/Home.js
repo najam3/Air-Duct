@@ -11,7 +11,7 @@ import Bar from "../components/Bar";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const [slide, setSlide] = useState(false);
+
   const [slideStates, setSlideStates] = useState([false, false, false]);
 
   function handleMouseEnter(index) {

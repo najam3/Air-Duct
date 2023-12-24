@@ -102,3 +102,11 @@ font-weight: 400;
    background-size: cover;
    width: 100%;
  }
+
+ .warningSigns {
+   background: url("../public/assets/wet-clothes.png") center no-repeat;
+   background-size: cover;
+   width: 100%;
+   min-height: 785px;
+   height: 100%;
+ }
