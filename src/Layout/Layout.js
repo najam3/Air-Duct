@@ -3,13 +3,21 @@ import Footer from '../components/Footer'
 import Navigation from '../components/Navigation'
 import SmNavbar from '../components/SmNavbar'
 import useScrollPos from '../hooks/useScrollPos'
-import useWindowResize from '../hooks/useWindowResize'
+
 
 const Layout = ({children}) => {
-  const {width} = useWindowResize()
+  // const {width} = useWindowResize()
   const {scrollPos} = useScrollPos();
+  const [width, setWidth] = useState(window.innerWidth)
 
-  
+
+
+useEffect(() => {
+  window.addEventListener('resize', e => {
+    setWidth(window.innerWidth);
+  })
+}, [width])
+
   return (
     <>
      {
