@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import LareBtn from "../components/LareBtn";
 import LinkWithUnderLine from "../components/LinkWithUnderLine";
 import BarAppointment from "../components/BarAppointment";
@@ -9,10 +9,16 @@ import CheckList from "../components/CheckList";
 import OurClients from "../components/OurClients";
 import Bar from "../components/Bar";
 import { Link } from "react-router-dom";
+import useWindowResize from "../hooks/useWindowResize";
 
 const Home = () => {
-
+  const [scroll, setScrollPos] = useState(0)
   const [slideStates, setSlideStates] = useState([false, false, false]);
+  const {width} = useWindowResize();
+  const handleScroll = () => {
+    const position = window.scrollY;
+    setScrollPos(position);
+};
 
   function handleMouseEnter(index) {
     setSlideStates((prev) => {
@@ -129,9 +135,17 @@ const Home = () => {
     "Better Business Bureau Accredited Business with A+ Rating ",
     "NADCA’s Safety Award Recipient (eight times), past winner of Outstanding Safety Award",
   ];
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, [scroll]);
+
   return (
     <>
-      <section className="home">
+      <section className={`home py-[7em] px-[1.5em]`}>
         <div className="w-full md:w-[80%] lg:w-[53%] bg-primary08 px-[1rem]  md:px-[4rem] md:ms-auto py-12 lg:py-12 xl:py-20">
           <h1 className="font-bold text-white mb-2 md:mb-6 text-3xl sm:text-4xl">
             DELIVERING AIR QUALITY
@@ -315,7 +329,7 @@ const Home = () => {
               <div
                 className={`absolute w-full flex justify-between flex-col ${
                   slideStates[index]
-                    ? "translate-y-[0%] opacity-100"
+                    ? "translate-y-[0px] opacity-100"
                     : "pointer-events-none"
                 } transition-all duration-500 opacity-0 text-white px-4 py-8 bg-[#003b60e3] translate-y-[100%] h-[100%]`}
               >
@@ -476,7 +490,7 @@ const Home = () => {
               <div
                 className={`absolute w-full flex justify-between flex-col ${
                   slideStates[index]
-                    ? "translate-y-[0%] opacity-100"
+                    ? "translate-y-[0px] opacity-100"
                     : "pointer-events-none"
                 } transition-all duration-500 opacity-0 text-white px-4 py-8 bg-[#003b60e3] translate-y-[100%] h-[100%]`}
               >

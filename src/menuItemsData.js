@@ -18,7 +18,7 @@ export const menuItemsData = [
                 },
                 {
                     title: 'Aeroseal',
-                    url: '/ventcleaning'
+                    url: '/aeroseal'
                 }
             ]
         },
@@ -28,7 +28,7 @@ export const menuItemsData = [
         submenu: [
             {
                 title: 'About Atlantic',
-                url: '/aboutAtlantic'
+                url: '/aboutatlantic'
             },
             {
                 title: 'Service Areas',

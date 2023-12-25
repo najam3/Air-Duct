@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SecondaryBanner = ({ title, subtitle, content, img, secondContent, padding, flex, height }) => {
+const SecondaryBanner = ({ title, subtitle, content, img, secondContent, padding, flex, height, sb, paraB }) => {
   // Function to render HTML content with links
   const renderContentWithLinks = (htmlContent) => {
     return { __html: htmlContent };
@@ -16,12 +16,12 @@ const SecondaryBanner = ({ title, subtitle, content, img, secondContent, padding
       <div className='flex flex-col lg:flex-row gap-8'>
         <article className={`${ flex || 'flex' } items-center justify-center px-4  ${padding || "lg:py-0 py-12" } raleway flex-1`}>
           <div className='lg:px-[40px]'>
-            <h2 className='font-semibold text-secondary text-[30px] md:text-[35px] mb-4'>
+            <h2 className={`font-semibold text-secondary text-[30px] md:text-[35px] ${sb || 'mb-4'}`}>
               {subtitle}
             </h2>
             {/* Render the content with links */}
             <p
-              className='text-neutral400 leading-primary text-[20px] font-normal'
+              className={`text-neutral400 ${paraB || ''} leading-primary text-[20px] font-normal`}
               dangerouslySetInnerHTML={renderContentWithLinks(content)}
             />
             <br />

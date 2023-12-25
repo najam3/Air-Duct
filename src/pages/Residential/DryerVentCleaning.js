@@ -80,7 +80,7 @@ const DryerVentCleaning = () => {
               <FaCheckCircle size={40} color="#7ab058" />
             </div>
             <p>
-              <span className="font-bold">Improve air quality.</span>: &nbsp;A
+              <span className="font-bold">Improve air quality</span>:&nbsp;A
               clean and properly installed dryer vent is critical to ensuring
               that water is fully eliminated from the clothes and expelled
               outdoors during the drying cycle. If your dryer vent has a lot of
@@ -95,7 +95,7 @@ const DryerVentCleaning = () => {
               <FaCheckCircle size={40} color="#7ab058" />
             </div>
             <p>
-              <span className="font-bold">Prevent fires.</span>: &nbsp;Dryer
+              <span className="font-bold">Prevent fires</span>:&nbsp;Dryer
               fires can occur when lint builds up in the dryer or in the exhaust
               duct. Lint blocks the flow of air, causing excessive heat buildup,
               and can result in a fire. As a preventative measure, schedule
@@ -108,7 +108,7 @@ const DryerVentCleaning = () => {
               <FaCheckCircle size={40} color="#7ab058" />
             </div>
             <p>
-              <span className="font-bold">Increase efficiency.</span>: &nbsp; By
+              <span className="font-bold">Increase efficiency</span>:&nbsp;By
               eliminating the buildup in the vent, your dryer won’t have to work
               as hard. Increasing your dryer’s efficiency will use less energy
               while operating (saving you money!).
@@ -120,7 +120,7 @@ const DryerVentCleaning = () => {
               <FaCheckCircle size={40} color="#7ab058" />
             </div>
             <p>
-              <span className="font-bold">Extend dryer life. </span>: &nbsp;
+              <span className="font-bold">Extend dryer life</span>:&nbsp;
               Similarly, a dryer vent line that is clogged with lint will cause
               your dryer to work harder, resulting in a shorter life span. A
               properly maintained dryer vent helps to achieve maximum

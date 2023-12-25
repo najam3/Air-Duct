@@ -3,13 +3,13 @@ import LinkWithUnderLine from '../components/LinkWithUnderLine';
 import { IoStarSharp } from "react-icons/io5";
 import LareBtn from './LareBtn';
 
-const OurClients = () => {
+const OurClients = ({background}) => {
   return (
-    <section className='our-clients-best px-4 py-12'>
+    <section className={`our-clients-best ${background || ''} px-4 py-12`}>
     <h2 className='text-primary font-semibold text-3xl md:text-3xl lg:text-4xl text-center mb-16 lg:mb-24'>Our Clients Say It Best</h2>
 
     <article className='flex flex-wrap gap-6 mb-14'>
-        <div className='p-5 rounded-md client-card md:w-[48%] xl:w-[32%] flex-shrink relative'>
+        <div className='p-5 rounded-md bg-white client-card md:w-[48%] xl:w-[32%] flex-shrink relative'>
               <div className='flex gap-2 items-center'>
                   <img src='/assets/2.png' alt='client' className='w-16' />
                   <div>
@@ -32,7 +32,7 @@ const OurClients = () => {
               </div>   
               <img src='/assets/small-map.png' alt='map' className='w-[20px] absolute top-0 right-0 mt-5 me-5'/>             
         </div>
-        <div className='p-5 rounded-md client-card md:w-[48%] xl:w-[32%] relative'>
+        <div className='p-5 rounded-md bg-white client-card md:w-[48%] xl:w-[32%] relative'>
               <div className='flex gap-2 items-center'>
                   <img src='/assets/1.png' alt='client' className='w-16' />
                   <div>
@@ -55,7 +55,7 @@ const OurClients = () => {
               </div>   
               <img src='/assets/small-map.png' alt='map' className='w-[20px] absolute top-0 right-0 mt-5 me-5'/>             
         </div>
-        <div className='p-5 rounded-md client-card md:w-[48%] xl:w-[32%] relative'>
+        <div className='p-5 rounded-md bg-white client-card md:w-[48%] xl:w-[32%] relative'>
               <div className='flex gap-2 items-center'>
                   <img src='/assets/3.png' alt='client' className='w-16' />
                   <div>
@@ -78,7 +78,7 @@ const OurClients = () => {
               </div>   
               <img src='/assets/small-map.png' alt='map' className='w-[20px] absolute top-0 right-0 mt-5 me-5'/>             
         </div>
-        <div className='p-5 rounded-md client-card md:w-[48%] xl:w-[32%] relative'>
+        <div className='p-5 rounded-md bg-white client-card md:w-[48%] xl:w-[32%] relative'>
               <div className='flex gap-2 items-center'>
                   <img src='/assets/4.png' alt='client' className='w-16' />
                   <div>

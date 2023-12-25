@@ -20,10 +20,10 @@ const {pathname} = useLocation();
     }, [scrollPosition]);
 
   return (
-    <header className={`px-4 ${scrollPosition > 300 ? 'fixed animate-down shadow-2xl bg-white w-full z-50' : 'relative'}`}>
+    <header className={`px-4 ${scrollPosition > 2 ? 'fixed animate-down w-full shadow-2xl bg-white z-[999]' : 'relative'}`}>
       <nav className={`flex justify-between`}>
         <Link to={'/'}>
-        <img src="/assets/logo.jpg" className={`${scrollPosition > 300 ? 'w-32' : 'w-52'} object-contain pb-[0.5em]`} alt="brand" />
+        <img src="/assets/logo.jpg" className={`${scrollPosition > 2 ? 'w-32' : 'w-52'} object-contain pb-[0.5em]`} alt="brand" />
         </Link>
         <div className="h-full">
           <div className="flex my-10 items-center gap-12">
@@ -44,7 +44,7 @@ const {pathname} = useLocation();
               </span>
             </Link>
           </div>
-          <ul className={`text-primary ${scrollPosition > 300 ? 'hidden' : ''} justify-end flex items-center gap-12 font-semibold text-lg`}>
+          <ul className={`text-primary ${scrollPosition > 2 ? 'hidden' : ''} justify-end flex items-center gap-12 font-semibold text-lg`}>
                     {menuItemsData.map((menu, index) => {
                         return <MenuItems 
                          scrollPosition={scrollPosition}
@@ -54,7 +54,7 @@ const {pathname} = useLocation();
           </ul>
         </div>
       </nav>
-      <div className={`bg-primary w-full ${pathname === '/' ? 'block' : ''}  ${scrollPosition > 300 ? 'hidden' : ''} h-4 absolute bottom-0 left-0`}></div>
+      <div className={`bg-primary w-full ${pathname === '/' ? 'block' : ''}  ${scrollPosition > 2 ? 'hidden' : ''} h-4 absolute bottom-0 left-0`}></div>
     </header>
   );
 };
