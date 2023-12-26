@@ -27,7 +27,7 @@ useEffect(() => {
            <Navigation/>
          )
       }
-        <main className={`${scrollPos > 2 && width > 624 ? 'pt-[190px]' : scrollPos > 200 && width < 624 ? 'pt-[190px]' : ''}`}>
+        <main className={`${scrollPos > 2 && width > 991 ? 'pt-[190px]' : scrollPos > 200 && width < 624 ? 'pt-[190px]' : width < 991 && scrollPos > 200 ? 'pt-[100px]' : ''}`}>
         {children}
         </main>
       <Footer />

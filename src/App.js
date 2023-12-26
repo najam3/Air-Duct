@@ -7,6 +7,8 @@ import DryerVentCleaning from "./pages/Residential/DryerVentCleaning";
 import Aeroseal from "./pages/Residential/Aeroseal";
 import AboutAtlantic from "./pages/About/AboutAtlantic";
 import ServiceAreas from "./pages/About/ServiceAreas";
+import ClientList from "./pages/About/ClientList";
+import FAQs from "./pages/About/FAQs";
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
               <Route path='/aeroseal' element={<Aeroseal />} /> 
               <Route path='/aboutatlantic' element={<AboutAtlantic />} /> 
               <Route path='/serviceareas' element={<ServiceAreas />} /> 
+              <Route path='/clientlist' element={<ClientList />} /> 
+              <Route path='/faqs' element={<FAQs />} /> 
             </Routes>
        </Layout>
           </BrowserRouter>
