@@ -3,7 +3,11 @@ import { Link } from 'react-router-dom'
 import Dropdown from './Dropdown'
 import { RiArrowDownSFill } from 'react-icons/ri'
 
+<<<<<<< HEAD
 const MenuItems = ({items, scrollPosition, closeOnOutsideClick}) => {
+=======
+const MenuItems = ({items, scrollPosition}) => {
+>>>>>>> 7a7ede2995d3b726cca7c6b5f01b01bf09b0010b
     const [dropDown, setDropdown] = useState(false);
     const btnRef = useRef();
 
@@ -43,7 +47,11 @@ const MenuItems = ({items, scrollPosition, closeOnOutsideClick}) => {
                     <Dropdown dropDown={dropDown} submenus={items.submenu} />
                 </React.Fragment>
             ) : (
+<<<<<<< HEAD
                 <Link className='bold' onClick={closeOnOutsideClick} to={items.url}>{items.title}</Link>
+=======
+                <Link className='bold' to={items.url}>{items.title}</Link>
+>>>>>>> 7a7ede2995d3b726cca7c6b5f01b01bf09b0010b
             )
         }
       </li>

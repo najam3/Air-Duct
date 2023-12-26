@@ -25,7 +25,11 @@ const OurProcess = () => {
       <section className='px-4 py-12'>
           <h2 className='text-3xl md:text-3xl lg:text-4xl text-secondary font-semibold text-center mb-12'>Air Duct Cleaning Process Steps</h2>
           {/* Card */}
+<<<<<<< HEAD
           <div className='cardy mb-16'>
+=======
+          <div className='card mb-16'>
+>>>>>>> 7a7ede2995d3b726cca7c6b5f01b01bf09b0010b
             <div className='py-3 bg-secondary'>
                  <h1 className='text-center text-xl sm:text-3xl lg:text-4xl font-semibold text-white'>Step 1: Protecting Your Home</h1>
             </div>
@@ -50,7 +54,11 @@ const OurProcess = () => {
             </div>
           </div>
           {/* Card */}
+<<<<<<< HEAD
           <div className='cardy mb-16'>
+=======
+          <div className='card mb-16'>
+>>>>>>> 7a7ede2995d3b726cca7c6b5f01b01bf09b0010b
             <div className='py-3 bg-secondary'>
                  <h1 className='text-center text-xl sm:text-3xl lg:text-4xl font-semibold text-white'>Step 2: Connecting Our Equipment</h1>
             </div>
@@ -61,7 +69,11 @@ const OurProcess = () => {
             </div>
           </div>
           {/* Card */}
+<<<<<<< HEAD
           <div className='cardy mb-12'>
+=======
+          <div className='card mb-12'>
+>>>>>>> 7a7ede2995d3b726cca7c6b5f01b01bf09b0010b
             <div className='py-3 bg-secondary'>
                  <h1 className='text-center text-xl sm:text-3xl lg:text-4xl font-semibold text-white'>Step 3: Source Removal</h1>
             </div>
