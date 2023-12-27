@@ -146,11 +146,7 @@ const Home = () => {
   return (
     <>
       <section className={`home py-[7em] px-[1.5em]`}>
-<<<<<<< HEAD
-        <div className="w-full md:w-[80%] lg:w-[53%] bg-primary08 px-[1rem] md:px-[4rem] ml-auto py-12 lg:py-12 xl:py-20">
-=======
         <div className="w-full md:w-[80%] lg:w-[53%] bg-primary08 px-[1rem]  md:px-[4rem] md:ms-auto py-12 lg:py-12 xl:py-20">
->>>>>>> 7a7ede2995d3b726cca7c6b5f01b01bf09b0010b
           <h1 className="font-bold text-white mb-2 md:mb-6 text-3xl sm:text-4xl">
             DELIVERING AIR QUALITY
           </h1>
@@ -264,17 +260,10 @@ const Home = () => {
               or ventilation cleaning project in Northern Virginia & Maryland.
             </p>
           </div>
-<<<<<<< HEAD
-          <div className="r1Vent w-[60%] min-h-[785px] order-1 lg:order-2"></div>
-        </article>
-        <article className="flex flex-col lg:flex-row">
-          <div className="r2Vent w-[60%] min-h-[785px]"></div>
-=======
           <div className="r1Vent w-[60%] min-h-screen order-1 lg:order-2"></div>
         </article>
         <article className="flex flex-col lg:flex-row">
           <div className="r2Vent w-[60%] min-h-screen"></div>
->>>>>>> 7a7ede2995d3b726cca7c6b5f01b01bf09b0010b
           <div className="w-full lg:w-[90%] px-4 py-[38px] lg:px-[65px] lg:pt-[80px] lg:pb-[80px]">
             <h1 className="text-secondary text-4xl font-semibold mb-8 lg:mb-14">
               Our Northern Virginia Duct Cleaning Services
@@ -316,11 +305,7 @@ const Home = () => {
       />
 
       <section className="py-20 px-4 bg-neutral50">
-<<<<<<< HEAD
-        <div className="flex gap-8 flex-wrap lg:flex-nowrap md:justify-normal lg:justify-center items-center">
-=======
         <div className="flex gap-8 flex-wrap lg:flex-nowrap items-center justify-center">
->>>>>>> 7a7ede2995d3b726cca7c6b5f01b01bf09b0010b
           {dataTwo.map((cards, index) => (
             <div
               key={index}
@@ -328,15 +313,6 @@ const Home = () => {
               onMouseLeave={() => handleMouseLeave(index)}
               style={{
                 backgroundImage: `url(${cards.image})`,
-<<<<<<< HEAD
-                backgroundSize: "cover",
-                backgroundPosition: "center"
-              }}
-              className="card rounded-md w-full min-h-screen sm:w-[100%] md:w-[450px] lg:w-[30%] 2xl:w-[20%] relative cursor-pointer"
-            >
-              {/* Remove this */}
-              <div className="card-overlay min-h-[30vh] absolute bottom-0 flex items-end justify-center">
-=======
                 width: "100%",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
@@ -346,7 +322,6 @@ const Home = () => {
             >
               {/* Remove this */}
               <div className="card-overlay min-h-[40vh] absolute bottom-0 flex items-end justify-center">
->>>>>>> 7a7ede2995d3b726cca7c6b5f01b01bf09b0010b
                 <h2 className="text-white font-semibold text-2xl text-center pb-6">
                   {cards.title}
                 </h2>
@@ -499,49 +474,6 @@ const Home = () => {
       <section className="py-20 px-4 bg-[#e9f1f8]">
         <div className="flex gap-8 flex-wrap lg:flex-nowrap items-center justify-center">
           {dataThree.map((cards, index) => (
-<<<<<<< HEAD
-            <>
-              <div
-                key={index}
-                onMouseEnter={() => handleMouseEnter(index)}
-                onMouseLeave={() => handleMouseLeave(index)}
-                style={{
-                  backgroundImage: `url(${cards.image})`,
-                  backgroundPosition: 'center',
-                  backgroundSize: "cover",
-                  minHeight: '45vh'
-                }}
-                className="card w-full object-cover min-h-[28vh] sm:w-[200px] md:min-h-[28vh] lg:w-[265px] lg:min-h-[28vh] relative cursor-pointer"
-              >
-                {/* Remove this */}
-                {/* <div className="card-overlay min-h-[40vh] absolute bottom-0"></div> */}
-                <div
-                  className={`absolute w-full flex justify-between flex-col ${
-                    slideStates[index]
-                      ? "translate-y-0 opacity-100"
-                      : "pointer-events-none"
-                  } transition-all duration-500 opacity-0 text-white px-4 py-8 bg-[#003b60e3] translate-y-[100%] h-[100%]`}
-                >
-                  <ul>
-                    <h1 className="text-xl mb-6 font-semibold text-center">
-                      {cards.title}
-                    </h1>
-                  </ul>
-                  <button
-                    className={`w-[100%] py-4 border-2 text-xl mx-auto font-semibold border-white`}
-                  >
-                    LEARN MORE
-                  </button>
-                </div>
-              </div>
-              <button className="w-[40%] border-4 text-lg md:hidden text-primary font-semibold border-primary mx-auto py-1" type="button">LEARN MORE</button>
-            </>
-          ))}
-        </div>
-        <div className="pt-16 text-center">
-          <button className="text-xl w-[40%] py-4 text-white font-semibold bg-primary">VIEW MORE</button>
-          {/* <LareBtn color={"primary"} fontColor={"white"} text={"VIEW MORE"} /> */}
-=======
             <div
               key={index}
               onMouseEnter={() => handleMouseEnter(index)}
@@ -578,7 +510,6 @@ const Home = () => {
         </div>
         <div className="pt-12 text-center">
           <LareBtn color={"primary"} fontColor={"white"} text={"VIEW MORE"} />
->>>>>>> 7a7ede2995d3b726cca7c6b5f01b01bf09b0010b
         </div>
       </section>
 
