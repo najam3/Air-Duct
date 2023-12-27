@@ -103,7 +103,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="">
                         <div className="text-center">
                             <button className="inline-block align-middle text-xl bg-secondary px-12 font-semibold py-4 text-white">SCHEDULE NOW</button>
                             <img src="/assets/secure-shopping-img.webp" className="inline-block align-middle w-[100px] ms-6 object-contain" alt="#" />

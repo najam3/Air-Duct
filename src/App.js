@@ -9,6 +9,8 @@ import AboutAtlantic from "./pages/About/AboutAtlantic";
 import ServiceAreas from "./pages/About/ServiceAreas";
 import ClientList from "./pages/About/ClientList";
 import FAQs from "./pages/About/FAQs";
+import Career from "./pages/About/Career";
+import Reviews from "./pages/Reviews";
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
               <Route path='/serviceareas' element={<ServiceAreas />} /> 
               <Route path='/clientlist' element={<ClientList />} /> 
               <Route path='/faqs' element={<FAQs />} /> 
+              <Route path='/careers' element={<Career />} /> 
+              <Route path='/reviews' element={<Reviews />} /> 
             </Routes>
        </Layout>
           </BrowserRouter>

@@ -474,6 +474,7 @@ const Home = () => {
       <section className="py-20 px-4 bg-[#e9f1f8]">
         <div className="flex gap-8 flex-wrap lg:flex-nowrap items-center justify-center">
           {dataThree.map((cards, index) => (
+          <>
             <div
               key={index}
               onMouseEnter={() => handleMouseEnter(index)}
@@ -506,6 +507,8 @@ const Home = () => {
                 </button>
               </div>
             </div>
+            <button class="w-[40%] border-4 text-lg block md:hidden text-primary font-semibold border-primary mx-auto py-1" type="button">LEARN MORE</button>
+          </>
           ))}
         </div>
         <div className="pt-12 text-center">
