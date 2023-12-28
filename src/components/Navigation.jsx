@@ -3,6 +3,7 @@ import { FaMobileAlt } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 import { menuItemsData } from "../menuItemsData";
 import MenuItems from "./MenuItems";
+import { companyInfo } from "../companyInfo";
 
 const Navigation = () => {
 const [scrollPosition, setScrollPosition] = useState(0);
@@ -40,7 +41,7 @@ const {pathname} = useLocation();
             <Link to="/" className="flex items-center gap-3">
               <FaMobileAlt className="text-secondary" size={45} />
               <span className="text-xl font-semibold text-[#505050]">
-                (707) 435-4485
+                {companyInfo.phoneNum}
               </span>
             </Link>
           </div>

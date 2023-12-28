@@ -9,7 +9,7 @@ const AboutAtlantic = () => {
   return (
     <>
       <SecondaryBanner
-        title={"ABOUT ATLANTIC DUCT CLEANING"}
+        title={"ABOUT DUCT CLEANING"}
         subtitle={"NADCA Certified Company"}
         sb={"mb-12"}
         content={`<a class="underline text-[#81a7ce] hover:text-secondary cursor-pointer" href="/pageNotFound">Atlantic Duct Cleaning</a> has been proudly serving Virginia and Maryland area homes and businesses with indoor air quality services for over two decades. We take pride in knowing that each and every one of our customers is completely satisfied, and every job is done completely and correctly, the first time around.`}

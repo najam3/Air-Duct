@@ -10,6 +10,7 @@ import OurClients from "../components/OurClients";
 import Bar from "../components/Bar";
 import { Link } from "react-router-dom";
 import useWindowResize from "../hooks/useWindowResize";
+import { companyInfo } from "../companyInfo";
 
 const Home = () => {
   const [scroll, setScrollPos] = useState(0)
@@ -167,10 +168,10 @@ const Home = () => {
         <div className="container flex flex-col lg:flex-row items-center justify-between w-full sm:w-[80%] mx-auto text-white">
           <div className="mb-6 lg:mb-0">
             <p className="mb-2 font-light text-2xl sm:text-3xl text-center lg:text-start text-primary">
-              The Expert’s Choice in Northern
+              The Expert’s Choice all over
             </p>
             <p className="font-light text-center text-2xl sm:text-3xl lg:text-start text-primary">
-              Virginia & Maryland
+              the UNITED STATES
             </p>
           </div>
           <button className="font-semibold bg-primary px-16 py-3 lg:py-4 lg:text-xl">
@@ -236,35 +237,35 @@ const Home = () => {
       <section>
         <div className="py-[3rem] sm:py-[3rem] px-4 sm:px-10 md:px-0 bg-primary">
           <h1 className="font-bold w-full lg:w-[70%] mx-auto text-white text-3xl sm:text-2xl md:text-4xl raleway text-center">
-            AIR DUCT CLEANING & SEALING IN NORTHERN VIRGINIA & MARYLAND
+            AIR DUCT CLEANING & DEEP CLEANING IN THE UNITED STATES
           </h1>
         </div>
       </section>
 
       <section>
         <article className="flex flex-col lg:flex-row">
-          <div className="w-full lg:w-[90%] order-2 lg:order-1 px-4 py-[38px] lg:px-[65px] lg:pt-[80px] lg:pb-[80px]">
+          <div className="w-full lg:w-[90%] flex justify-center flex-col order-2 lg:order-1 px-4 py-[38px] lg:px-[65px] lg:pt-[80px] lg:pb-[80px]">
             <h1 className="text-secondary text-4xl font-semibold mb-8 lg:mb-14">
               Welcome to Atlantic Duct Cleaning
             </h1>
             <p>
               Atlantic Duct Cleaning provides professional air duct cleaning,
               dryer vent cleaning, and more to residential and commercial
-              properties throughout Maryland & Northern Virginia. Being NADCA
+              properties throughout the UNITED STATES. Being NADCA
               certified since 1995, Atlantic Duct Cleaning delivers top quality
               results, utilizes state-of-the-art Abatement Technologies®
               equipment and HEPA-filtered vacuums, and has the highest standard
               of customer satisfaction in the industry. With more than 27 years
               of experience, our highly trained technicians have the skill and
               experience to tackle any residential and commercial HVAC ductwork
-              or ventilation cleaning project in Northern Virginia & Maryland.
+              or ventilation cleaning project in the United States.
             </p>
           </div>
-          <div className="r1Vent w-[60%] min-h-screen order-1 lg:order-2"></div>
+          <div className="r1Vent w-[60%] min-h-[785px] order-1 lg:order-2"></div>
         </article>
         <article className="flex flex-col lg:flex-row">
-          <div className="r2Vent w-[60%] min-h-screen"></div>
-          <div className="w-full lg:w-[90%] px-4 py-[38px] lg:px-[65px] lg:pt-[80px] lg:pb-[80px]">
+          <div className="r2Vent w-[60%] min-h-[785px]"></div>
+          <div className="w-full lg:w-[90%] flex justify-center flex-col px-4 py-[38px] lg:px-[65px] lg:pt-[80px] lg:pb-[80px]">
             <h1 className="text-secondary text-4xl font-semibold mb-8 lg:mb-14">
               Our Northern Virginia Duct Cleaning Services
             </h1>
@@ -313,12 +314,10 @@ const Home = () => {
               onMouseLeave={() => handleMouseLeave(index)}
               style={{
                 backgroundImage: `url(${cards.image})`,
-                width: "100%",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                minHeight: "90vh",
               }}
-              className="card rounded-md w-full min-h-screen sm:w-[100%] md:w-[450px] lg:w-[32%] relative cursor-pointer"
+              className="card rounded-md w-full min-h-screen md:min-h-[70vh] 2xl:min-h-[70vh] sm:w-[100%] md:w-[450px] lg:w-[30%] 2xl:w-[25%]  relative cursor-pointer"
             >
               {/* Remove this */}
               <div className="card-overlay min-h-[40vh] absolute bottom-0 flex items-end justify-center">
@@ -357,12 +356,17 @@ const Home = () => {
         </div>
       </section>
 
+
+
+
+
+
       <BarAppointment
         color={"text-[#205372]"}
         weight={"font-medium"}
         size={"text-2xl"}
         content={
-          'For duct and dryer cleaning services in Northern Virginia and Maryland, <a class="underline text-[#81a7ce]" href="/notfound">schedule an appointment</a> or call Atlantic Duct Cleaning at <a class="underline text-[#81a7ce] href="/notfound">(703) 435-4485!</a>'
+          `For duct and dryer cleaning services in the United States, <a class="underline text-[#81a7ce]" href="/notfound">schedule an appointment</a> or call Atlantic Duct Cleaning at <a class="underline text-[#81a7ce] href="/notfound">${companyInfo.phoneNum}</a>`
         }
         background={"bg-[#6197b84d]"}
         padding={"py-4"}
@@ -481,10 +485,10 @@ const Home = () => {
               onMouseLeave={() => handleMouseLeave(index)}
               style={{
                 backgroundImage: `url(${cards.image})`,
-                width: "100%",
                 backgroundSize: "cover",
+                backgroundPosition: 'center'
               }}
-              className="card w-full object-cover min-h-[50vh] sm:w-[200px] md:min-h-[80vh] lg:w-[400px] lg:min-h-[50vh] relative cursor-pointer"
+              className="card w-full object-cover  min-h-[28vh] sm:w-[200px] md:min-h-[28vh] lg:w-[265px] lg:min-h-[28vh] relative cursor-pointer"
             >
               {/* Remove this */}
               {/* <div className="card-overlay min-h-[40vh] absolute bottom-0"></div> */}
@@ -512,29 +516,28 @@ const Home = () => {
           ))}
         </div>
         <div className="pt-12 text-center">
+          
           <LareBtn color={"primary"} fontColor={"white"} text={"VIEW MORE"} />
         </div>
       </section>
 
       <section className="py-16 px-4">
         <h2 className="text-primary font-semibold mb-12 text-4xl text-center">
-          Choose Atlantic Duct Cleaning for Your Air Duct Cleaning Services in
-          Northern Virginia & Maryland
+          Choose Duct Master Cleaning for Your Air Duct Cleaning Services all over the United States
         </h2>
         <p className="mb-12 text-center">
-          Atlantic Duct Cleaning offers specific appointment times, uses a safe
+           Duct Master Cleaning offers specific appointment times, uses a safe
           (HEPA) and certified (NADCA) cleaning process, offers a 100%
           guaranteed service, and gives you the peace of mind in working with a
           trustworthy company that is licensed and bonded. With our expertly
           trained technicians and great customer service, Atlantic Duct Cleaning
-          delivers on our promise of excellence. If you’re in the Northern
-          Virginia and Maryland area,
+          delivers on our promise of excellence.
           <LinkWithUnderLine
             text={"schedule an appointment"}
             route={"/notfound"}
           />{" "}
           or give us a call at{" "}
-          <LinkWithUnderLine text={"(703) 435-4485"} route={"/notfound"} />!
+          <LinkWithUnderLine text={companyInfo.phoneNum} route={"/notfound"} />!
         </p>
 
         <div className="flex flex-col sm:flex-row gap-8 sm:gap-28 items-center justify-center">
@@ -562,7 +565,7 @@ const Home = () => {
               Dryer Vent Cleaning
             </li>
             <li className="text-2xl mb-2 list-disc ms-[1.7em]">
-              Aeroseal Duct Sealing
+              Deep Duct Cealing
             </li>
           </ul>
           <ul>
@@ -576,7 +579,7 @@ const Home = () => {
               Dryer Vent Cleaning
             </li>
             <li className="text-2xl mb-2 list-disc ms-[1.7em]">
-              Aeroseal Duct Sealing
+              Deep Duct Cleaning
             </li>
           </ul>
         </div>

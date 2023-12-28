@@ -11,7 +11,7 @@ const OurProcess = () => {
     <main>
       <SecondaryBanner 
         title="OUR AIR DUCT CLEANING PROCESS" 
-        subtitle="Choose Atlantic Duct Cleaning for Your Indoor Air Quality Needs in MD & VA"
+        subtitle="Choose Duct Cleaning for Your Indoor Air Quality Needs in MD & VA"
         content={`<a href="/noob"  class="underline text-[#81a7ce]">Residential air duct cleaning</a> is a proven method for making your home’s air cleaner. Whether you’ve just remodeled or are experiencing the side effects of breathing contaminated air, our process guarantees cleaner air for you and your family.`}
         secondContent={`To speak to our Northern Virginia duct cleaning experts, call <a href="/noob" class="underline text-[#81a7ce]">(703) 435-4485</a> or <a href="/noob" class="underline text-[#81a7ce]">schedule an appointment</a> online. You can also receive a <a href="/noob" class="underline text-[#81a7ce]">free estimate</a> for your next project.`}
         img="/assets/Commercial-Truck-Pic.jpg"       

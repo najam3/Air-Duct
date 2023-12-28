@@ -8,6 +8,7 @@ import CheckList from "../../components/CheckList";
 import VideoSection from "../../components/VideoSection";
 import OurClients from "../../components/OurClients";
 import FAQ from "../../components/FAQ";
+import { companyInfo } from "../../companyInfo";
 
 
 let FAQs = [
@@ -37,7 +38,7 @@ const DryerVentCleaning = () => {
   return (
     <>
       <SecondaryBanner
-        title={"RESIDENTIAL DRYER VENT CLEANING IN NORTHERN VIRGINIA"}
+        title={"RESIDENTIAL DRYER VENT CLEANING SERVICES ALL OVER THE US"}
         subtitle={
           "Providing Dryer Vent Cleaning in Manassas, Centreville, Fairfax & Surrounding Areas"
         }
@@ -58,9 +59,9 @@ const DryerVentCleaning = () => {
             <Link className="underline" to={"/pageNotFound"}>
               schedule a dryer vent cleaning
             </Link>{" "}
-            or call us at{" "}
+            or text us at{" "}
             <Link className="underline font-bold" to={"/pageNotFound"}>
-              (703) 435-4485.
+              {companyInfo.phoneNum}
             </Link>
           </p>
         </div>
@@ -69,7 +70,7 @@ const DryerVentCleaning = () => {
       <section className="px-4 py-12">
         <div>
           <h1 className="text-4xl font-semibold text-secondary mb-12">
-            Benefits of Dryer Vent Cleaning in Northern VA
+            Benefits of Dryer Vent Cleaning 
           </h1>
           <p className="mb-4">
             Atlantic Duct Cleaning’s professional residential dryer vent

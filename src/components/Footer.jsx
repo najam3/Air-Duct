@@ -5,9 +5,9 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaYelp } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import LareBtn from "./LareBtn";
 import { IoStarSharp } from "react-icons/io5";
 import LinkWithUnderLine from "./LinkWithUnderLine";
+import { companyInfo } from "../companyInfo";
 
 
 const Footer = () => {
@@ -43,7 +43,7 @@ const Footer = () => {
                                 <Link className="text-primary hover:text-secondary duration-300 ease-in-out transition-colors font-bold text-2xl md:text-2xl lg:text-3xl" to={'/'}>SCHEDULE NOW</Link>
                             </li>
                             <li className="mb-4">
-                                <Link className="text-secondary font-bold text-lg" to={'/'}>OFFICE: (703) 435-4485</Link>
+                                <Link className="text-secondary font-bold text-lg" to={'/'}>OFFICE: {companyInfo.phoneNum}</Link>
                             </li>
                              <p className="text-lg text-black font-semibold mb-2">6997 GATEWAY CT <br/> MANASSAS, VA 20109</p>
                            <p className="text-secondary font-bold text-lg">MONDAY - FRIDAY (8AM - 5PM)</p>
