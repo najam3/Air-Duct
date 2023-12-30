@@ -11,6 +11,8 @@ import ClientList from "./pages/About/ClientList";
 import FAQs from "./pages/About/FAQs";
 import Career from "./pages/About/Career";
 import Reviews from "./pages/Reviews";
+import CommAirduct from "./pages/Commercial/CommAirduct";
+import Contact from "./pages/Contact";
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
               <Route path='/faqs' element={<FAQs />} /> 
               <Route path='/careers' element={<Career />} /> 
               <Route path='/reviews' element={<Reviews />} /> 
+              <Route path='/commductcleaning' element={<CommAirduct />} /> 
+              <Route path='/contact' element={<Contact />} /> 
             </Routes>
        </Layout>
           </BrowserRouter>

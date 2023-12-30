@@ -67,7 +67,7 @@ font-weight: 400;
 
 
 .home {
-   background: url(../public/assets/r5-jumbo.jpg) center no-repeat;
+   background: url(../public/assets/pipeline-2.png) center no-repeat;
    background-size: cover;
    background-position: top;
 }
@@ -109,7 +109,7 @@ font-weight: 400;
  }
 
  .warningSigns {
-   background: url("../public/assets/wet-clothes.png") center no-repeat;
+   background: url("../public/assets/pipeline-5.png") center no-repeat;
    background-size: cover;
    width: 100%;
    min-height: 785px;

@@ -40,11 +40,11 @@ const Home = () => {
     {
       title: "Residential Services",
       cta: "LEARN MORE",
-      image: "assets/house-and-lawn.png",
+      image: "assets/r1-cleaning-ducts-in-home.webp",
       overlay: {
         title: "Residential Services",
         description:
-          "Atlantic Duct Cleaning provides professional indoor environmental solutions, utilizing the finest equipment available, and promoting the highest levels of training and quality standards.",
+          "Duct Master provides professional indoor environmental solutions, utilizing the finest equipment available, and promoting the highest levels of training and quality standards.",
         cta: "LEARN MORE",
       },
     },
@@ -55,18 +55,18 @@ const Home = () => {
       overlay: {
         title: "Commercial Services",
         description:
-          "At Atlantic Duct Cleaning, we provide unparalleled commercial duct sealing services to a variety of industries including hospitals, schools, offices, and more!            ",
+          "At Duct Master, we provide unparalleled commercial duct sealing services to a variety of industries including hospitals, schools, offices, and more!            ",
         cta: "LEARN MORE",
       },
     },
     {
-      title: "Aeroseal Services",
+      title: "Deep Duct Cleaning Services",
       cta: "LEARN MORE",
       image: "assets/shiny-hvac.png",
       overlay: {
-        title: "Aeroseal Services",
+        title: "Deep Duct Cleaning Services",
         description:
-          "Atlantic Duct Cleaning provides professional indoor environmental solutions, utilizing the finest equipment available, and promoting the highest levels of training and quality standards.",
+          "Duct Master provides professional indoor environmental solutions, utilizing the finest equipment available, and promoting the highest levels of training and quality standards.",
         cta: "LEARN MORE",
       },
     },
@@ -75,7 +75,7 @@ const Home = () => {
   const dataTwo = [
     {
       title: "Air Duct Cleaning",
-      image: "/assets/r1-duct-cleaning.png",
+      image: "/assets/pipeline-3.png",
       overlay: {
         title: "Air Duct Cleaning",
         list: [
@@ -87,7 +87,7 @@ const Home = () => {
     },
     {
       title: "Dryer Vent Cleaning",
-      image: "/assets/r1-dryer-vent-inside.png",
+      image: "/assets/dv-ba.jpg",
       overlay: {
         title: "Dryer Vent Cleaning",
         list: [
@@ -98,10 +98,10 @@ const Home = () => {
       },
     },
     {
-      title: "Aeroseal Duct Sealing",
-      image: "/assets/aeroseal-hp-two.png",
+      title: "Deep duct cleaning",
+      image: "/assets/pipeline-5.png",
       overlay: {
-        title: "Aeroseal Duct Sealing",
+        title: "Deep duct cleaning",
         list: [
           "Reduce utility bills",
           "Increase comfort for you and your family",
@@ -168,7 +168,7 @@ const Home = () => {
         <div className="container flex flex-col lg:flex-row items-center justify-between w-full sm:w-[80%] mx-auto text-white">
           <div className="mb-6 lg:mb-0">
             <p className="mb-2 font-light text-2xl sm:text-3xl text-center lg:text-start text-primary">
-              The Expert’s Choice all over
+              The Expert’s Choice in
             </p>
             <p className="font-light text-center text-2xl sm:text-3xl lg:text-start text-primary">
               the UNITED STATES
@@ -246,13 +246,13 @@ const Home = () => {
         <article className="flex flex-col lg:flex-row">
           <div className="w-full lg:w-[90%] flex justify-center flex-col order-2 lg:order-1 px-4 py-[38px] lg:px-[65px] lg:pt-[80px] lg:pb-[80px]">
             <h1 className="text-secondary text-4xl font-semibold mb-8 lg:mb-14">
-              Welcome to Atlantic Duct Cleaning
+              Welcome to Duct Master
             </h1>
             <p>
-              Atlantic Duct Cleaning provides professional air duct cleaning,
+              Duct Master provides professional air duct cleaning,
               dryer vent cleaning, and more to residential and commercial
               properties throughout the UNITED STATES. Being NADCA
-              certified since 1995, Atlantic Duct Cleaning delivers top quality
+              certified since 1995, Duct Master delivers top quality
               results, utilizes state-of-the-art Abatement Technologies®
               equipment and HEPA-filtered vacuums, and has the highest standard
               of customer satisfaction in the industry. With more than 27 years
@@ -270,9 +270,9 @@ const Home = () => {
               Our Northern Virginia Duct Cleaning Services
             </h1>
             <p>
-              The team at Atlantic Duct Cleaning provides residential and
+              The team at Duct Master provides residential and
               commercial duct cleaning and dryer vent cleaning as well as
-              Aeroseal duct sealing and{" "}
+              Deep duct cleaning and{" "}
               <LinkWithUnderLine
                 text={"commercial kitchen exhaust system cleaning"}
                 route={"/notfound"}
@@ -281,7 +281,7 @@ const Home = () => {
             </p>
             <br />
             <p>
-              Contact Atlantic Duct Cleaning today to{" "}
+              Contact Duct Master today to{" "}
               <LinkWithUnderLine
                 text={"schedule service online"}
                 route={"/notfound"}
@@ -301,7 +301,7 @@ const Home = () => {
         title={"OUR HVAC CLEANING SERVICES"}
         padding={"py-6"}
         content={
-          "When it comes to maintaining a clean and efficient HVAC system, Atlantic Duct Cleaning is your go-to source for exceptional services. We offer a comprehensive range of HVAC cleaning services, including air duct cleaning, dryer vent cleaning, and Aeroseal duct sealing. Dont compromise on the cleanliness and efficiency of your HVAC system Contact Atlantic Duct Cleaning today for an estimate or to schedule service Our team is dedicated to providing you with exceptional results and a healthier living or working environment."
+          "When it comes to maintaining a clean and efficient HVAC system, Duct Master is your go-to source for exceptional services. We offer a comprehensive range of HVAC cleaning services, including air duct cleaning, dryer vent cleaning, and Deep duct cleaning. Dont compromise on the cleanliness and efficiency of your HVAC system Contact Duct Master today for an estimate or to schedule service Our team is dedicated to providing you with exceptional results and a healthier living or working environment."
         }
       />
 
@@ -328,7 +328,7 @@ const Home = () => {
               <div
                 className={`absolute w-full flex justify-between flex-col ${
                   slideStates[index]
-                    ? "translate-y-0 opacity-100"
+                    ? "translate-y-[0px] opacity-100"
                     : "pointer-events-none"
                 } transition-all duration-500 opacity-0 text-white px-4 py-8 bg-[#003b60e3] translate-y-[100%] h-[100%]`}
               >
@@ -356,17 +356,12 @@ const Home = () => {
         </div>
       </section>
 
-
-
-
-
-
       <BarAppointment
         color={"text-[#205372]"}
         weight={"font-medium"}
         size={"text-2xl"}
         content={
-          `For duct and dryer cleaning services in the United States, <a class="underline text-[#81a7ce]" href="/notfound">schedule an appointment</a> or call Atlantic Duct Cleaning at <a class="underline text-[#81a7ce] href="/notfound">${companyInfo.phoneNum}</a>`
+          `For duct and dryer cleaning services in the United States, <a class="underline text-[#81a7ce]" href="/notfound">schedule an appointment</a> or text Duct Master at <a class="underline text-[#81a7ce] href="/notfound">${companyInfo.phoneNum}</a>`
         }
         background={"bg-[#6197b84d]"}
         padding={"py-4"}
@@ -385,7 +380,7 @@ const Home = () => {
               The Atlantic Difference
             </h1>
             <p className="mb-4">
-              With Atlantic Duct Cleaning, the cost of your air duct and dryer
+              With Duct Master, the cost of your air duct and dryer
               vent cleaning service is determined in advance—there’s no need to
               worry about unexpected add-ons after our technicians arrive at
               your residence or commercial property. We like to maintain an open
@@ -396,10 +391,9 @@ const Home = () => {
             </p>
             <p>
               We employ professionally trained technicians that have helped
-              Atlantic Duct Cleaning become an expert in the duct cleaning and
+              Duct Master become an expert in the duct cleaning and
               dryer vent cleaning field. After successfully performing HVAC air
-              duct cleaning on more than 160,000 systems in Northern Virginia
-              and Maryland, Atlantic Duct Cleaning is:
+              duct cleaning on more than 160,000 systems all over the US, Duct Master is:
             </p>
           </div>
           <div className="mt-4 lg:mt-0 lg:self-end">
@@ -433,7 +427,7 @@ const Home = () => {
         src3={
           "/assets/edit-home-advisor-logo-screened-and-approved-homeadvisor-logo.webp"
         }
-        src4={"/assets/Aeroseal-Logo-color.png"}
+        src4={"/assets/Deep Duct Cleaning-Logo-color.png"}
         src5={"/assets/iaqa-logo.jpg"}
       />
 
@@ -450,7 +444,7 @@ const Home = () => {
         ))}
         <p>
           We understand you may have questions when it comes to cleaning your
-          ducts. At Atlantic Duct Cleaning, our{" "}
+          ducts. At Duct Master, our{" "}
           <LinkWithUnderLine
             text={"residential air duct"}
             route={"/notfound"}
@@ -464,7 +458,7 @@ const Home = () => {
       <Brands
         src1={"/assets/AngiesList_SSA_2020_200x165.png"}
         src2={"/assets/al-2019.webp"}
-        src3={"/assets/PresidentsClub-wAeroseal.webp"}
+        src3={"/assets/PresidentsClub-wDeep Duct Cleaning.webp"}
         src4={"/assets/Angi-2021-Super-Service-Award.webp"}
       />
       <OurClients />
@@ -488,14 +482,14 @@ const Home = () => {
                 backgroundSize: "cover",
                 backgroundPosition: 'center'
               }}
-              className="card w-full object-cover  min-h-[28vh] sm:w-[200px] md:min-h-[28vh] lg:w-[265px] lg:min-h-[28vh] relative cursor-pointer"
+              className="card w-full object-cover  min-h-[28vh] sm:w-[200px] md:min-h-[28vh] lg:w-[265px] lg:min-h-[32vh] relative cursor-pointer"
             >
               {/* Remove this */}
               {/* <div className="card-overlay min-h-[40vh] absolute bottom-0"></div> */}
               <div
                 className={`absolute w-full flex justify-between flex-col ${
                   slideStates[index]
-                    ? "translate-y-0 opacity-100"
+                    ? "translate-y-[0px] opacity-100"
                     : "pointer-events-none"
                 } transition-all duration-500 opacity-0 text-white px-4 py-8 bg-[#003b60e3] translate-y-[100%] h-[100%]`}
               >
@@ -530,7 +524,7 @@ const Home = () => {
           (HEPA) and certified (NADCA) cleaning process, offers a 100%
           guaranteed service, and gives you the peace of mind in working with a
           trustworthy company that is licensed and bonded. With our expertly
-          trained technicians and great customer service, Atlantic Duct Cleaning
+          trained technicians and great customer service, Duct Master
           delivers on our promise of excellence.
           <LinkWithUnderLine
             text={"schedule an appointment"}
@@ -661,7 +655,7 @@ const Home = () => {
           </p>
           <p>
             When you choose a NADCA-certified duct cleaning company, like
-            Atlantic Duct Cleaning, you are working with professionals who are
+            Duct Master, you are working with professionals who are
             dedicated to excellence, continuous education, and the highest
             standards in the industry. NADCA certification ensures the best
             possible results for your indoor air quality and overall system

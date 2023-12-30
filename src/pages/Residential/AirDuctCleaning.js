@@ -30,16 +30,16 @@ let isAirDuctCleaningNessecaryAgain = [
 
 let FAQs = [
     {
-        title: "Why is air duct cleaning necessary?",
-        content: "Air duct cleaning is necessary to remove accumulated dirt, dust, allergens, and other contaminants from the ductwork. Over time, these pollutants can build up and negatively impact indoor air quality, leading to potential health issues, reduced HVAC system efficiency, and increased energy consumption."
+        title: "Why is Duct Master necessary?",
+        content: "Duct Master is necessary to remove accumulated dirt, dust, allergens, and other contaminants from the ductwork. Over time, these pollutants can build up and negatively impact indoor air quality, leading to potential health issues, reduced HVAC system efficiency, and increased energy consumption."
     },
     {
-        title: "How long does air duct cleaning take?",
-        content: "The duration of air duct cleaning can vary depending on factors such as the size of the property, the complexity of the duct system, and the level of contamination. On average, a thorough air duct cleaning process can take anywhere from 2 to 6 hours. However, it's important to prioritize quality over speed to ensure a comprehensive cleaning."
+        title: "How long does Duct Master take?",
+        content: "The duration of Duct Master can vary depending on factors such as the size of the property, the complexity of the duct system, and the level of contamination. On average, a thorough Duct Master process can take anywhere from 2 to 6 hours. However, it's important to prioritize quality over speed to ensure a comprehensive cleaning."
     },
     {
         title: "Can I clean my air ducts myself?",
-        content: "While there are DIY air duct cleaning kits available on the market, it is generally recommended to hire a professional for air duct cleaning. Professionals have the expertise, specialized equipment, and knowledge to effectively clean and address specific issues in the ductwork. They can ensure thorough cleaning while minimizing the risk of damage to the system or improper handling of contaminants."
+        content: "While there are DIY Duct Master kits available on the market, it is generally recommended to hire a professional for Duct Master. Professionals have the expertise, specialized equipment, and knowledge to effectively clean and address specific issues in the ductwork. They can ensure thorough cleaning while minimizing the risk of damage to the system or improper handling of contaminants."
     }
 ]
 
@@ -53,18 +53,18 @@ const AirDuctCleaning = () => {
         title={"RESIDENTIAL DUCT CLEANING IN UNITED STATES"}
         subtitle={"Improve Air Quality"}
         content={
-          'Do you suffer from allergies? Are there lurking odors in your home from smoking or pets? Have you recently remodeled or renovated? If so, you are breathing in millions of germ-carrying dust and mold particles that have been hiding in your air ducts. That’s why the professionals at <a href="/pageNotFound" class="underline text-[#81a7ce]">Atlantic Duct Cleaning</a> are here to help.'
+          'Do you suffer from allergies? Are there lurking odors in your home from smoking or pets? Have you recently remodeled or renovated? If so, you are breathing in millions of germ-carrying dust and mold particles that have been hiding in your air ducts. That’s why the professionals at <a href="/pageNotFound" class="underline text-[#81a7ce]">Duck Master</a> are here to help.'
         }
         secondContent={
           "According to The American Lung Association, most people spend almost 90 percent of their time indoors. So we’ve made it our mission to improve the air quality in Northern Virginia homes! We’ll clean your air ducts so you and your family can breathe easier."
         }
-        img={"/assets/r1-cleaning-ducts-in-home.jpg"}
+        img={"/assets/r1-cleaning-ducts-in-home.webp"}
       />
       <section className="bg-primary px-4 py-12">
         <div className="text-center">
           <p className="text-white">
             If you’re tired of breathing contaminated air, schedule service
-            online with the experts at Atlantic Duct Cleaning.
+            online with the experts at DUCT MASTER.
           </p>
         </div>
       </section>
@@ -89,7 +89,7 @@ const AirDuctCleaning = () => {
         src={
           "/assets/videos/How-does-Atlantic-Duct-Cleaning-clean-your-air-ducts-update.mp4"
         }
-        title={"How Does Atlantic Duct Cleaning Clean Your Air Ducts?"}
+        title={"How Does Duck Master Clean Your Air Ducts?"}
       />
 
       <section className="py-10 text-center px-4">
@@ -97,7 +97,7 @@ const AirDuctCleaning = () => {
           Source Removal Process
         </h1>
         <p className="mb-4">
-          Source removal air duct cleaning is the only proven method to
+          Source removal Duct Master is the only proven method to
           thoroughly clean your duct system. The source removal process has two
           steps:
         </p>
@@ -151,7 +151,7 @@ const AirDuctCleaning = () => {
         </ul>
       </section>
 
-      <Bar title={"Is Air Duct Cleaning Necessary?"} />
+      <Bar title={"Is Duct Cleaning Necessary?"} />
 
       <section className="py-16 bg-neutral200 px-4">
         <article className="flex flex-col lg:flex-row gap-8">
@@ -182,7 +182,7 @@ const AirDuctCleaning = () => {
             <p>
               If you’ve noticed any of these signs in your Northern Virginia
               home, or it’s been awhile since your last duct cleaning, give
-              Atlantic Duct Cleaning a call today.
+              Duck Master a call today.
             </p>
           </div>
           <div className="flex-1">
@@ -199,9 +199,9 @@ const AirDuctCleaning = () => {
 
       <BarAppointment
        padding={'py-20'}
-       title={'Contact Northern Virginia’s Air Duct Cleaning Professionals'}
-       content2={'If you’re interested in improving the air quality in your home, call the residential duct cleaning experts at Atlantic Duct Cleaning or <a class="underline text-[#81a7ce]">schedule an appointment</a> online. In addition to home air duct cleaning, our other <a class="hover:bg-secondary underline text-[#81a7ce]">residential services</a> include <a class="hover:bg-secondary underline text-[#81a7ce]">dryer vent cleaning</a> and <a class="underline text-[#81a7ce] hover:bg-secondary">Aeroseal duct sealing</a>.'}
-       content={'Since 1995, Atlantic Duct Cleaning has been a trusted industry leader providing professional indoor environmental solutions. Utilizing the finest equipment available and promoting the highest levels of training and quality standards, Atlantic Duct Cleaning has delivered over 160,000 successful projects with predictable responsibility and 100% customer satisfaction.'}
+       title={'Contact Northern Virginia’s Duct Master Professionals'}
+       content2={'If you’re interested in improving the air quality in your home, call the residential duct cleaning experts at Duck Master or <a class="underline text-[#81a7ce]">schedule an appointment</a> online. In addition to home Duct Master, our other <a class="hover:bg-secondary underline text-[#81a7ce]">residential services</a> include <a class="hover:bg-secondary underline text-[#81a7ce]">dryer vent cleaning</a> and <a class="underline text-[#81a7ce] hover:bg-secondary">Deep duct cleaning</a>.'}
+       content={'Since 1995, Duck Master has been a trusted industry leader providing professional indoor environmental solutions. Utilizing the finest equipment available and promoting the highest levels of training and quality standards, Duck Master has delivered over 160,000 successful projects with predictable responsibility and 100% customer satisfaction.'}
        margin={'mb-4'}
        />
     <section className="py-10 px-4">

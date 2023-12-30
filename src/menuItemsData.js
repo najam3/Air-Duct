@@ -17,11 +17,33 @@ export const menuItemsData = [
                     url: '/ventcleaning'
                 },
                 {
-                    title: 'Aeroseal',
+                    title: 'Deep Duct Cleaning',
                     url: '/aeroseal'
                 }
             ]
         },
+        // {
+        //     title: 'Commercial',
+        //     submenu: [
+        //         {
+        //             title: 'Air Duct Cleaning', 
+        //             url: '/commductcleaning'
+        //         },
+        //         {
+        //             title: 'Dryer Vent Cleaning',
+        //             url: '/commventcleaning'
+        //         },
+        //         {
+        //             title: 'Kitchen Exhaust Cleaning',
+        //             url: '/kitchenexhaust'
+        //         },
+        //         {
+        //             title: 'Deep Duct Cleaning',
+        //             url: '/commaeroseal'
+        //         }
+        //     ]
+        // },
+
 
     {
         title: 'ABOUT',

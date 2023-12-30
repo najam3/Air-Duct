@@ -40,21 +40,20 @@ const DryerVentCleaning = () => {
       <SecondaryBanner
         title={"RESIDENTIAL DRYER VENT CLEANING SERVICES ALL OVER THE US"}
         subtitle={
-          "Providing Dryer Vent Cleaning in Manassas, Centreville, Fairfax & Surrounding Areas"
+          "Providing Dryer Vent Cleaning all over America"
         }
         content={
-          "Would you do whatever it takes to prevent a house fire? Would you like extra money in your wallet each month? If you answered yes to both of these questions, then the experts at Atlantic Duct Cleaning have the solution for you—dryer vent cleaning. With a professional dryer vent cleaning, you will reduce the risk of fire from lint buildup in the vents and increase energy efficiency, resulting in lower electric bills."
+          "Would you do whatever it takes to prevent a house fire? Would you like extra money in your wallet each month? If you answered yes to both of these questions, then the experts at Duct Master have the solution for you—dryer vent cleaning. With a professional dryer vent cleaning, you will reduce the risk of fire from lint buildup in the vents and increase energy efficiency, resulting in lower electric bills."
         }
         flex={"block"}
         height={"lg:min-h-0 min-h-[100vh]"}
         padding={"pt-12 lg:py-20"}
-        img={"/assets/dv-ba.png"}
+        img={"/assets/dv-ba.jpg"}
       />
       <section className="bg-primary px-4 py-12">
         <div className="text-center">
           <p className="text-white">
-            If you’re in Manassas, Centreville, Fairfax or surrounding Northern
-            Virginia areas and your dryer isn’t performing at maximum
+            If you’re in America and your dryer isn’t performing at maximum
             efficiency,{" "}
             <Link className="underline" to={"/pageNotFound"}>
               schedule a dryer vent cleaning
@@ -73,7 +72,7 @@ const DryerVentCleaning = () => {
             Benefits of Dryer Vent Cleaning 
           </h1>
           <p className="mb-4">
-            Atlantic Duct Cleaning’s professional residential dryer vent
+            Duct Master’s professional residential dryer vent
             cleaning will help:
           </p>
           <div className="flex gap-4 mb-6">
@@ -146,7 +145,7 @@ const DryerVentCleaning = () => {
         </p>
         <p>
           Although dryer vent cleaning is often overlooked, it is a necessary
-          process to ensure safety in your home. Atlantic Duct Cleaning
+          process to ensure safety in your home. Duct Master
           recommends scheduling a professional technician come to your home to
           clean out the lint buildup in the vent so you know it has been cleaned
           properly.
@@ -183,7 +182,7 @@ const DryerVentCleaning = () => {
                 <CheckList margin={"mb-6"} item={"And more."} />
               </ul>
               <p>
-                Call Atlantic Duct Cleaning at (703) 435-4485 immediately if you
+                Call Duct Master at (703) 435-4485 immediately if you
                 are experiencing any of these warning signs to prevent the
                 consequences of an uncleaned dryer vent.
               </p>
@@ -274,11 +273,11 @@ const DryerVentCleaning = () => {
       </section>
       <section className="pb-16 text-center bg-neutral200 px-4">
         <h1 className="text-4xl font-semibold text-primary mb-6">
-          Why Choose Atlantic Duct Cleaning for Dryer Vent Services?
+          Why Choose Duct Master for Dryer Vent Services?
         </h1>
 
         <p className="mb-8">
-          At Atlantic Duct Cleaning, we have been providing expert air duct
+          At Duct Master, we have been providing expert air duct
           cleaning and dryer vent services to the Manassas and Northern Virginia
           area for decades. We provide:
         </p>
@@ -327,12 +326,11 @@ const DryerVentCleaning = () => {
             <p className="mb-2">
               To save you money, improve dryer efficiency, keep your home safe,
               and more, schedule dryer vent cleaning with the professionals at
-              Atlantic Duct Cleaning. Our experts will ensure your dryer vents
+              Duct Master. Our experts will ensure your dryer vents
               are in top shape.
             </p>
             <p>
-              For additional questions about dryer vent cleaning in Manassas and
-              surrounding Northern Virginia areas, check out our{" "}
+              For additional questions about dryer vent cleaning in in America, check out our{" "}
               <Link className="text-[#81a7ce] hover:text-secondary" to={"/faqs"}>
                 FAQs
               </Link>{" "}
@@ -341,14 +339,14 @@ const DryerVentCleaning = () => {
                 className="text-[#81a7ce] hover:text-secondary"
                 to={"/contactus"}
               >
-                contact us
+                text us
               </Link>{" "}
               at{" "}
               <Link
                 className="text-[#81a7ce] hover:text-secondary"
                 to={"/pageNotFound"}
               >
-                (571) 462-2016
+                {companyInfo.phoneNum}
               </Link>{" "}
               to{" "}
               <Link
@@ -377,7 +375,7 @@ const DryerVentCleaning = () => {
                 className="text-[#81a7ce] hover:text-secondary"
                 to={"/pageNotFound"}
               >
-                Aeroseal duct sealing
+               {""} Deep duct cleaning
               </Link>
               .
             </p>

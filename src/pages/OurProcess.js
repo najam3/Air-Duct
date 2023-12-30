@@ -13,14 +13,14 @@ const OurProcess = () => {
         title="OUR AIR DUCT CLEANING PROCESS" 
         subtitle="Choose Duct Cleaning for Your Indoor Air Quality Needs in MD & VA"
         content={`<a href="/noob"  class="underline text-[#81a7ce]">Residential air duct cleaning</a> is a proven method for making your home’s air cleaner. Whether you’ve just remodeled or are experiencing the side effects of breathing contaminated air, our process guarantees cleaner air for you and your family.`}
-        secondContent={`To speak to our Northern Virginia duct cleaning experts, call <a href="/noob" class="underline text-[#81a7ce]">(703) 435-4485</a> or <a href="/noob" class="underline text-[#81a7ce]">schedule an appointment</a> online. You can also receive a <a href="/noob" class="underline text-[#81a7ce]">free estimate</a> for your next project.`}
-        img="/assets/Commercial-Truck-Pic.jpg"       
+        secondContent={`To speak to our Northern Virginia duct cleaning experts, text <a href="/noob" class="underline text-[#81a7ce]">(703) 435-4485</a> or <a href="/noob" class="underline text-[#81a7ce]">schedule an appointment</a> online. You can also receive a <a href="/noob" class="underline text-[#81a7ce]">free estimate</a> for your next project.`}
+        img="/assets/pipeline-8.png"       
       />
       
       <VideoSection 
       poster='/assets/r2-video-cover-one.png' 
       src='/assets/videos/clean-air-ducts.mp4' 
-      title='How Does Atlantic Duct Cleaning Clean Your Air Ducts?' />
+      title='How Does Duct Master Clean Your Air Ducts?' />
 
       <section className='px-4 py-12'>
           <h2 className='text-3xl md:text-3xl lg:text-4xl text-secondary font-semibold text-center mb-12'>Air Duct Cleaning Process Steps</h2>
@@ -56,7 +56,7 @@ const OurProcess = () => {
             </div>
             <div className='card-body p-[1.25rem]'>
               <p className='text-neutral400 text-[20px] text-center font-[400]  leading-primary'>
-              Atlantic Duct Cleaning uses a powerful, portable HyperVac system to effectively clean your air ducts. We also ensure that all debris is collected by using an Abatement Technologies HEPA filter. These terms basically translate to one thing: we use the best equipment to get the best results.
+              Duct Master uses a powerful, portable HyperVac system to effectively clean your air ducts. We also ensure that all debris is collected by using an Abatement Technologies HEPA filter. These terms basitexty translate to one thing: we use the best equipment to get the best results.
               </p>
             </div>
           </div>
@@ -91,25 +91,25 @@ const OurProcess = () => {
       </section>
 
 
-      <Bar title="Why Choose Atlantic Duct Cleaning in Northern Virginia & Maryland?" />
+      <Bar title="Why Choose Duct Master in United States?" />
 
         <section className='py-12 px-4 bg-neutral200 flex gap-6 flex-col lg:flex-row'>
             <div className='flex-1'>
               <p>
-              All of our work is performed in accordance with the <LinkWithUnderLine text='National Air Duct Cleaners Association’s (NADCA)' route='/' />  guidelines and procedures. Atlantic Duct Cleaning guarantees excellent customer service, passionate work, and a clean end product.
+              All of our work is performed in accordance with the <LinkWithUnderLine text='National Air Duct Cleaners Association’s (NADCA)' route='/' />  guidelines and procedures. Duct Master guarantees excellent customer service, passionate work, and a clean end product.
               </p>
                <br />
               <p>
-                You’ve put a lot of time, money, and effort in making your house a home. With Atlantic Duct Cleaning, you’re not only protecting your family, you’re protecting your investment. For further peace of mind, be sure to consider <LinkWithUnderLine text='Aeroseal duct sealing' route='/' /> to make it harder for anything but clean air to cycle through your home.
+                You’ve put a lot of time, money, and effort in making your house a home. With Duct Master, you’re not only protecting your family, you’re protecting your investment. For further peace of mind, be sure to consider <LinkWithUnderLine text='Deep Duct Cleaning' route='/' /> to make it harder for anything but clean air to cycle through your home.
               </p>
             </div>
             <div className='flex-1'>
-              <img src='/assets/clean-ad.png'  alt=''/>
+              <img src='/assets/air-duct-cleaning-services.jpg'  alt=''/>
             </div>
         </section>
 
       <OurClients />
-      <BarAppointment title={'Contact Northern Virginia’s Air Duct Cleaning Experts'} content={`Now that you’ve read about our process, please call <a class="underline text-[#81a7ce] hover:text-secondary cursor-pointer">(703) 435-4485</a> to speak to our duct cleaning experts, or <a class="underline text-[#81a7ce] hover:text-secondary cursor-pointer">schedule an appointment</a> for duct cleaning in Northern Virginia!
+      <BarAppointment title={'Contact America Air Duct Cleaning Experts'} content={`Now that you’ve read about our process, please text <a class="underline text-[#81a7ce] hover:text-secondary cursor-pointer">(703) 435-4485</a> to speak to our duct cleaning experts, or <a class="underline text-[#81a7ce] hover:text-secondary cursor-pointer">schedule an appointment</a> for duct cleaning in America
 `}/>
     
     </main>

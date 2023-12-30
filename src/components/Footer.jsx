@@ -58,7 +58,7 @@ const Footer = () => {
                                     <Link className="text-black hover:text-secondary duration-300 ease-in-out transition-colors text-xl md:text-xl lg:text-2xl" to={'/'}>Dryer Vent Cleaning</Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link className="text-black hover:text-secondary duration-300 ease-in-out transition-colors text-xl md:text-xl lg:text-2xl" to={'/'}>Aeroseal</Link>
+                                    <Link className="text-black hover:text-secondary duration-300 ease-in-out transition-colors text-xl md:text-xl lg:text-2xl" to={'/'}>Deep Duct Cleaning</Link>
                                 </li>
                             </ul>
                             <ul className="mt-8 md:mt-0">
@@ -73,7 +73,7 @@ const Footer = () => {
                                     <Link className="text-black hover:text-secondary duration-300 ease-in-out transition-colors text-xl md:text-xl lg:text-2xl" to={'/'}>Kitchen Hood Cleaning</Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link className="text-black hover:text-secondary duration-300 ease-in-out transition-colors text-xl md:text-xl lg:text-2xl" to={'/'}>Aeroseal</Link>
+                                    <Link className="text-black hover:text-secondary duration-300 ease-in-out transition-colors text-xl md:text-xl lg:text-2xl" to={'/'}>Deep Duct Cleaning</Link>
                                 </li>
                             </ul>
 
@@ -84,7 +84,7 @@ const Footer = () => {
                                     <Link className="text-black hover:text-secondary duration-300 ease-in-out transition-colors text-xl md:text-xl lg:text-2xl" to={'/'}>Our Process</Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link className="text-black hover:text-secondary duration-300 ease-in-out transition-colors text-xl md:text-xl lg:text-2xl" to={'/'}>About Atlantic</Link>
+                                    <Link className="text-black hover:text-secondary duration-300 ease-in-out transition-colors text-xl md:text-xl lg:text-2xl" to={'/'}>About Duct Master</Link>
                                 </li>
                                 <li className="mb-2">
                                     <Link className="text-black hover:text-secondary duration-300 ease-in-out transition-colors text-xl md:text-xl lg:text-2xl" to={'/'}>Service Areas</Link>
@@ -113,7 +113,7 @@ const Footer = () => {
                             <div className='flex gap-6 items-center'>
                                 <img src='/assets/logo.jpg' alt='client' className='w-16' />
                                 <div>
-                                    <h2 className='text-[#5d6f80] mb-3 text-xl font-bold'>Atlantic Duct Cleaning</h2>
+                                    <h2 className='text-[#5d6f80] mb-3 text-xl font-bold'>Duct Master</h2>
                                     <div className='flex items-center'>
                                     <IoStarSharp size={20} color='#ff6900'/>
                                     <IoStarSharp size={20} color='#ff6900'/>
@@ -135,7 +135,7 @@ const Footer = () => {
                     <div className="text-center mt-20">
                         <p className="text-black">Licensed Bonded and Insured</p>
                                 <br/>
-                        <p className="text-black">&copy; 2023 Atlantic Duct Cleaning. All Rights Reserved. <LinkWithUnderLine text={'Privacy Policy'} />. <LinkWithUnderLine text={'Sitemap'} />.</p>
+                        <p className="text-black">&copy; 2023 Duct Master. All Rights Reserved. <LinkWithUnderLine text={'Privacy Policy'} />. <LinkWithUnderLine text={'Sitemap'} />.</p>
                                 <br />
                         <p className="text-black inline-block align-middle"><img src="/assets/lse-logo.webp" alt="#" className="w-[30px] inline-block align-middle" />Web Design & Digital Marketing by <LinkWithUnderLine text="Local Search Essesntials" route="/" />.
                         </p>

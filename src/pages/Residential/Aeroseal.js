@@ -5,24 +5,25 @@ import VideoSection from "../../components/VideoSection";
 import Bar from "../../components/Bar";
 import OurClients from "../../components/OurClients";
 import FAQ from "../../components/FAQ";
+import { companyInfo } from "../../companyInfo";
 
 
 let FAQs = [
     {
-      title: "How does Aeroseal duct sealing differ from traditional duct sealing methods?",
-      content: "Unlike traditional duct sealing methods that often require extensive manual labor or access to hard-to-reach areas, Aeroseal duct sealing is a convenient and non-invasive alternative. It utilizes aerosol particles that are carried by the airflow and distributed throughout the ductwork, sealing leaks from within. This method saves time, covers gaps more effectively, and ensures optimal sealing results."
+      title: "How does Deep duct cleaning differ from traditional duct sealing methods?",
+      content: "Unlike traditional duct sealing methods that often require extensive manual labor or access to hard-to-reach areas, Deep duct cleaning is a convenient and non-invasive alternative. It utilizes aerosol particles that are carried by the airflow and distributed throughout the ductwork, sealing leaks from within. This method saves time, covers gaps more effectively, and ensures optimal sealing results."
     },
     {
-      title: "How long does the Aeroseal duct sealing process take?", 
-      content: "The duration of the Aeroseal duct sealing process can vary depending on the size and complexity of the duct system. However, in most cases, it can be completed within a few hours. The process typically includes preparation, cleaning, sealing, monitoring, verification, and a final inspection to ensure all leaks are properly sealed."
+      title: "How long does the Deep duct cleaning process take?", 
+      content: "The duration of the Deep duct cleaning process can vary depending on the size and complexity of the duct system. However, in most cases, it can be completed within a few hours. The process typically includes preparation, cleaning, sealing, monitoring, verification, and a final inspection to ensure all leaks are properly sealed."
     },
     {
-      title: "Is Aeroseal duct sealing safe for my home and family?",
-      content: "Yes, Aeroseal duct sealing is safe for your home and family. The sealant used in the process is non-toxic and has been tested and verified to comply with safety standards. The particles are carried by the airflow within the ductwork and do not pose any health risks when properly applied by trained technicians."
+      title: "Is Deep duct cleaning safe for my home and family?",
+      content: "Yes, Deep duct cleaning is safe for your home and family. The sealant used in the process is non-toxic and has been tested and verified to comply with safety standards. The particles are carried by the airflow within the ductwork and do not pose any health risks when properly applied by trained technicians."
     }, 
     {
-      title: "What are the benefits of Aeroseal duct sealing?",
-      content: "Aeroseal duct sealing offers numerous benefits, including increased energy savings by reducing air leakage, improved indoor air quality by preventing the entry of contaminants and allergens, enhanced comfort with more consistent room temperatures, minimized musty odors and excessive dust, and prolonged HVAC system lifespan by reducing strain and wear. It is a cost-efficient solution that helps you save money on energy bills while enjoying a healthier and more comfortable living environment."
+      title: "What are the benefits of Deep duct cleaning?",
+      content: "Deep duct cleaning offers numerous benefits, including increased energy savings by reducing air leakage, improved indoor air quality by preventing the entry of contaminants and allergens, enhanced comfort with more consistent room temperatures, minimized musty odors and excessive dust, and prolonged HVAC system lifespan by reducing strain and wear. It is a cost-efficient solution that helps you save money on energy bills while enjoying a healthier and more comfortable living environment."
     }
 ]
 
@@ -30,23 +31,23 @@ const Aeroseal = () => {
   return (
     <>
       <SecondaryBanner
-        title={"RRESIDENTIAL DEEP AIR DUCT CLEANING ALL OVER THE  UNITED STATES"}
+        title={"RESIDENTIAL DEEP AIR DUCT CLEANING ALL OVER THE  UNITED STATES"}
         subtitle={"Indoor Air Quality Solutions"}
         content={
           "Although your home’s air duct system isn’t apparent to the naked eye, it shouldn’t be one of those things that is out of sight, out of mind. If your home’s ducts are poorly sealed or not sealed at all, they are allowing conditioned air to leave your home and are bringing in outside air, wasting your energy and money! Insulating and sealing the ducts in your attic, basement, and crawl space is a cost-efficient, effective way to keep more money in your pocket instead of losing it to your energy bills."
         }
-        secondContent={`Founded in 1995, <a class="text-[#81a7ce] hover:text-secondary">Atlantic Duct Cleaning</a> is a trusted industry leader in providing professional indoor air quality solutions for homes throughout the Northern Virginia area. Our trained technicians can improve your leaky air ducts with Aeroseal duct sealing! Its more effective than traditional air duct sealing because it saves time and covers the gaps more effectively!`}
+        secondContent={`Founded in 1995, <a class="text-[#81a7ce] hover:text-secondary">Duck Master</a> is a trusted industry leader in providing professional indoor air quality solutions for homes throughout the Northern Virginia area. Our trained technicians can improve your leaky air ducts with Deep duct cleaning! Its more effective than traditional air duct sealing because it saves time and covers the gaps more effectively!`}
         flex={"block"}
         height={"lg:min-h-0 min-h-[100vh]"}
         padding={"pt-12 lg:py-20"}
-        img={"/assets/aeroseal-two.jpg"}
+        img={"/assets/pipeline-8.png"}
       />
       <section className="bg-primary px-4 py-12">
         <div className="text-center">
           <p className="text-white">
             Tired of paying high energy bills? Schedule service online with
-            Atlantic Duct Cleaning! Our NADCA-certified technicians will help
-            you decide if Aeroseal duct sealing is the right choice for your
+            Duck Master! Our NADCA-certified technicians will help
+            you decide if Deep duct cleaning is the right choice for your
             Northern Virginia home!
           </p>
         </div>
@@ -102,9 +103,9 @@ const Aeroseal = () => {
           <Link className="hover:text-secondary text-[#81a7ce]">
             get an estimate online
           </Link>{" "}
-          from Atlantic Duct Cleaning, give us a call at{" "}
+          from Duck Master, give us a call at{" "}
           <Link className="hover:text-secondary text-[#81a7ce]">
-            (571) 462-2016
+            {companyInfo.phoneNum}
           </Link>
           , or check out our{" "}
           <Link className="hover:text-secondary text-[#81a7ce]">FAQ!</Link>
@@ -126,7 +127,7 @@ const Aeroseal = () => {
         ></iframe>
       </section>
 
-      <Bar title={"Benefits of Residential Aeroseal Duct Sealing"} />
+      <Bar title={"Benefits of Residential Deep duct cleaning"} />
 
       <section className="py-16 px-4 bg-neutral200">
         <p className="mb-4">
@@ -135,7 +136,7 @@ const Aeroseal = () => {
           places can actually be pulled into the air you and your family
           breathe! If your family is suffering from allergies caused by poor air
           quality or your home’s temperature is constantly uncomfortable,
-          Aeroseal duct sealing will help:
+          Deep duct cleaning will help:
         </p>
         <ul className="text-2xl  text-black font-medium ms-12">
           <li className="list-disc mb-2">
@@ -165,11 +166,11 @@ const Aeroseal = () => {
         </p>
         {/* Same Sec again */}
         <h1 className="text-4xl font-semibold text-secondary mb-6">
-          The Aeroseal Duct Sealing Process
+          The Deep duct cleaning Process
         </h1>
 
         <p className="mb-6">
-          Aeroseal Duct Sealing is a highly effective method for sealing leaks
+          Deep duct cleaning is a highly effective method for sealing leaks
           in air duct systems, improving energy efficiency, and enhancing indoor
           air quality. It offers a convenient and non-invasive alternative to
           traditional duct sealing methods that require extensive manual labor
@@ -239,12 +240,12 @@ const Aeroseal = () => {
         <article className="flex flex-col lg:flex-row gap-8">
           <div className="text-center w-full lg:w-[70%]">
             <p className="mb-4">
-              Atlantic Duct Cleaning offers high-quality air purification and
+              Duck Master offers high-quality air purification and
               duct sealing throughout Northern Virginia & Maryland. By utilizing
               high-quality equipment and promoting the highest levels of
               training and quality standards, we have completed over 160,000
               successful projects! Your family deserves to relax in a
-              comfortable home, and Atlantic Duct Cleaning can make that happen!
+              comfortable home, and Duck Master can make that happen!
             </p>
             <p className="text-center">
               If you’re in the{" "}
@@ -255,15 +256,15 @@ const Aeroseal = () => {
               <Link to={'/pageNotFound'} className="hover:text-secondary text-[#81a7ce]">
                 Maryland {"  "}
               </Link>
-              area and are interested in residential Aeroseal duct sealing,{" "}
+              and are interested in residential Deep duct cleaning,{" "}
               <Link to={'/pageNotFound'} className="hover:text-secondary text-[#81a7ce]">
                 schedule service online
               </Link>{" "}
-              or give us a call at{" "}
+              or text us at{" "}
               <Link to={'/pageNotFound'} className="hover:text-secondary text-[#81a7ce]">
-                (571) 462-2016
+                {companyInfo.phoneNum}
               </Link>
-              ! In addition to Aeroseal duct sealing, our other{" "}
+              ! In addition to Deep duct cleaning, our other{" "}
               <Link to={'/pageNotFound'} className="hover:text-secondary text-[#81a7ce]">
                 residential services
               </Link>{" "}
