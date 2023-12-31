@@ -36,7 +36,9 @@ const SideNav = ({isOpen, closeOnOutsideClick, btnRef}) => {
                          closeOnOutsideClick={closeOnOutsideClick}
                          isOpen={isOpen}
                          items={menu}
-                         key={index} />
+                         key={index} 
+                         
+                         />
                })}
        </ul>
   )
