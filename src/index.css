@@ -115,3 +115,14 @@ font-weight: 400;
    min-height: 785px;
    height: 100%;
  }
+ .commercial-bg {
+   background: url("../public/assets/pipeline-5.png") center no-repeat;
+   background-size: cover;
+   min-height: 100vh;
+ }
+ .improve-air-quality {
+   background: url("../public/assets/EC5000.jpg") center no-repeat;
+   background-size: cover;
+   min-height: 785px;
+ }
+

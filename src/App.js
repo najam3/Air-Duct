@@ -13,6 +13,9 @@ import Career from "./pages/About/Career";
 import Reviews from "./pages/Reviews";
 import CommAirduct from "./pages/Commercial/CommAirduct";
 import Contact from "./pages/Contact";
+import CommDryerVent from "./pages/Commercial/CommDryerVent";
+import KitchenExhaust from "./pages/Commercial/KitchenExhaust";
+import CommDeepClean from "./pages/Commercial/CommDeepClean";
 
 
 function App() {
@@ -34,6 +37,9 @@ function App() {
               <Route path='/reviews' element={<Reviews />} /> 
               <Route path='/commductcleaning' element={<CommAirduct />} /> 
               <Route path='/contact' element={<Contact />} /> 
+              <Route path='/commventcleaning' element={<CommDryerVent />} /> 
+              <Route path='/kitchenexhaust' element={<KitchenExhaust />} /> 
+              <Route path='/commaeroseal' element={<CommDeepClean />} /> 
             </Routes>
        </Layout>
           </BrowserRouter>

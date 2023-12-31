@@ -29,12 +29,12 @@ const {pathname} = useLocation();
         <div className="h-full">
           <div className="flex my-10 items-center gap-12">
             <button className="border-4 hover:bg-primary hover:text-white transition-colors duration-500 border-primary  text-primary  px-4 py-2">
-              <Link to="/" className="font-semibold bug text-2xl">
+              <Link to="/contact" className="font-semibold bug text-2xl">
                 RECEIVE ESTIMATE
               </Link>
             </button>
             <button className="border-4 bug bg-secondary hover:shadow-2xl transition-shadow duration-500 border-secondary text-xl text-white  px-4 py-2">
-              <Link to="/" className="font-semibold bug text-2xl">
+              <Link to="/contact" className="font-semibold bug text-2xl">
                 SCEDHULE NOW
               </Link>
             </button>

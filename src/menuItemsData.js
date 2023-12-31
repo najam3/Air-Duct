@@ -22,27 +22,27 @@ export const menuItemsData = [
                 }
             ]
         },
-        // {
-        //     title: 'Commercial',
-        //     submenu: [
-        //         {
-        //             title: 'Air Duct Cleaning', 
-        //             url: '/commductcleaning'
-        //         },
-        //         {
-        //             title: 'Dryer Vent Cleaning',
-        //             url: '/commventcleaning'
-        //         },
-        //         {
-        //             title: 'Kitchen Exhaust Cleaning',
-        //             url: '/kitchenexhaust'
-        //         },
-        //         {
-        //             title: 'Deep Duct Cleaning',
-        //             url: '/commaeroseal'
-        //         }
-        //     ]
-        // },
+        {
+            title: 'COMMERCIAL',
+            submenu: [
+                {
+                    title: 'Air Duct Cleaning', 
+                    url: '/commductcleaning'
+                },
+                {
+                    title: 'Dryer Vent Cleaning',
+                    url: '/commventcleaning'
+                },
+                {
+                    title: 'Kitchen Exhaust Cleaning',
+                    url: '/kitchenexhaust'
+                },
+                {
+                    title: 'Deep Duct Cleaning',
+                    url: '/commaeroseal'
+                }
+            ]
+        },
 
 
     {
@@ -59,10 +59,6 @@ export const menuItemsData = [
             {
                 title: 'Client List',
                 url: '/clientlist'
-            },
-            {
-                title: 'Recent Blog Articles',
-                url: '/blogs'
             },
             {
                 title: 'FAQs',
