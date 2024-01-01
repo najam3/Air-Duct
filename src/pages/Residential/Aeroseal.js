@@ -31,7 +31,7 @@ const Aeroseal = () => {
   return (
     <>
       <SecondaryBanner
-        title={"RESIDENTIAL DEEP AIR DUCT CLEANING ALL OVER THE  UNITED STATES"}
+        title={"RESIDENTIAL DEEP AIR DUCT CLEANING ALL OVER THE UNITED STATES"}
         subtitle={"Indoor Air Quality Solutions"}
         content={
           "Although your home’s air duct system isn’t apparent to the naked eye, it shouldn’t be one of those things that is out of sight, out of mind. If your home’s ducts are poorly sealed or not sealed at all, they are allowing conditioned air to leave your home and are bringing in outside air, wasting your energy and money! Insulating and sealing the ducts in your attic, basement, and crawl space is a cost-efficient, effective way to keep more money in your pocket instead of losing it to your energy bills."
@@ -114,13 +114,13 @@ const Aeroseal = () => {
 
       <section className="py-8 px-4">
         <h1 className="text-center text-4xl font-semibold mb-12 text-secondary">
-          The Aeroseal Process
+          The Duct Deep Cleaning Process
         </h1>
         <iframe
           width="100%"
           height="715"
           src="https://www.youtube.com/embed/HrMa3QHCOBg"
-          title="HVAC Duct Sealing Process Animation | Overview of Air Sealing Ductwork | Aeroseal"
+          title="HVAC Duct Sealing Process Animation | Overview of Air Sealing Ductwork | Deep Duct Cleaning"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen="allowfullscreen"

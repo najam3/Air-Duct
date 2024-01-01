@@ -16,51 +16,54 @@ let benefits = [
 
 let faqs = [
     {
-        title: "How does Aeroseal duct sealing differ from traditional duct sealing methods?",
+        title: "How does Deep Duct Cleaning differ from traditional duct sealing methods?",
         content: "Unlike traditional methods that may require manual sealing of visible leaks, Aeroseal is a non-invasive process that can effectively seal hidden and hard-to-reach leaks in the ductwork, resulting in a more comprehensive sealing solution."
     },
     {
-        title: "Is Aeroseal duct sealing safe for my HVAC system and indoor environment?",
-        content: "Yes, Aeroseal duct sealing is safe for both your HVAC system and indoor environment. The sealant used in the process is non-toxic, non-flammable, and does not release any harmful chemicals into the air."
+        title: "Is Deep Duct Cleaning safe for my HVAC system and indoor environment?",
+        content: "Yes, Deep Duct Cleaning is safe for both your HVAC system and indoor environment. The sealant used in the process is non-toxic, non-flammable, and does not release any harmful chemicals into the air."
     },
     {
-        title: "How long does the Aeroseal duct sealing process typically take?",
-        content: "The duration of the Aeroseal duct sealing process depends on the size of your duct system and the extent of leaks. However, most residential projects are completed within a few hours, while larger commercial projects may take longer."
+        title: "How long does the Deep Duct Cleaning process typically take?",
+        content: "The duration of the Deep Duct Cleaning process depends on the size of your duct system and the extent of leaks. However, most residential projects are completed within a few hours, while larger commercial projects may take longer."
     },
     {
-        title: "Will Aeroseal duct sealing help reduce my energy bills?",
+        title: "Will Deep Duct Cleaning help reduce my energy bills?",
         content: "Yes, by sealing the leaks in your ductwork, Aeroseal improves the efficiency of your HVAC system, reducing energy waste and ultimately leading to lower energy bills.        "
     },
     {
         title: "How do I know if my air ducts need sealing?",
-        content: "If you experience inconsistent room temperatures, high energy bills, excessive dust, or poor indoor air quality, it may be a sign that your air ducts have leaks and could benefit from Aeroseal duct sealing."
+        content: "If you experience inconsistent room temperatures, high energy bills, excessive dust, or poor indoor air quality, it may be a sign that your air ducts have leaks and could benefit from Deep Duct Cleaning."
     },
     {
-        title: "Is Aeroseal duct sealing a long-lasting solution?",
-        content: "Yes, Aeroseal duct sealing provides a long-lasting solution to duct leaks. The sealant used in the process is durable and designed to remain effective for many years."
+        title: "Is Deep Duct Cleaning a long-lasting solution?",
+        content: "Yes, Deep Duct Cleaning provides a long-lasting solution to duct leaks. The sealant used in the process is durable and designed to remain effective for many years."
     },
     {
         title: "Can I still access my ducts after the Aeroseal process is completed?",
         content: "Yes, the Aeroseal sealant remains flexible and does not block access to the ductwork, so you can still access your ducts for maintenance and inspections as needed."
     },
-]
+];
+
+
 const CommDeepClean = () => {
+ 
   return (
     <>
       <SecondaryBanner
-        title={"COMMERCIAL AEROSEAL DUCT SEALING IN ALL OVER AMERICA"}
+        title={"COMMERCIAL Deep Duct Cleaning IN ALL OVER AMERICA"}
         subtitle={"Reduce Your Building’s Energy Usage"}
         padding={"py-16"}
         content={`Duct leakage in commercial buildings is a common occurrence. In fact, the U.S. Department of Energy (DOE) says that leaky ductwork is one of the biggest contributors to energy waste in U.S. buildings today!
                 <br/> <br/>
         Leaky ductwork can cause 20% to 30% of conditioned air to be lost, straining a building’s systems, wasting energy, and costing thousands of dollars per month.`}
-        secondContent={`There is a simple solution to this costly problem. Atlantic Duct Cleaning can seal this leaky ductwork with Aeroseal duct sealing! It’s more effective and convenient than conventional methods of repairing leaky ductwork, requires less time and seals a larger portion of a leakage area—a win-win! In fact, the DOE now ranks duct sealing as one of the most effective strategies for reducing energy costs.
+        secondContent={`There is a simple solution to this costly problem. Atlantic Duct Cleaning can seal this leaky ductwork with Deep Duct Cleaning! It’s more effective and convenient than conventional methods of repairing leaky ductwork, requires less time and seals a larger portion of a leakage area—a win-win! In fact, the DOE now ranks duct sealing as one of the most effective strategies for reducing energy costs.
                         <br/> <br/>
-        Aeroseal duct sealing will make your building more comfortable for you and your tenants! Call us today to schedule a free in-person estimate to learn more about this critical energy-saving process: (571) 462-2016!`}
+        Deep Duct Cleaning will make your building more comfortable for you and your tenants! Call us today to schedule a free in-person estimate to learn more about this critical energy-saving process: (571) 462-2016!`}
       />
 
       <Bar
-        title={`Why schedule an appointment with Atlantic Duct Cleaning? Aeroseal duct sealing will make your building more comfortable for you and your tenants! text us today at ${companyInfo.phoneNum}!`}
+        title={`Why schedule an appointment with Atlantic Duct Cleaning? Deep Duct Cleaning will make your building more comfortable for you and your tenants! text us today at ${companyInfo.phoneNum}!`}
         fontSize={"text-xl"}
         background={"bg-primary"}
         fontColor={"text-white"}
@@ -149,7 +152,8 @@ const CommDeepClean = () => {
         </div>
         {/* Add Video Here... */}
       </section>
-      <Bar title={"Benefits of Commercial Aeroseal Duct Sealing"} />
+      
+      <Bar title={"Benefits of Commercial Deep Duct Cleaning"} />
 
       <section className="py-16 bg-neutral200 px-4 lg:px-0">
         <p className="text-center mb-12 px-6">
@@ -200,7 +204,6 @@ const CommDeepClean = () => {
 
         </div>
       </section>
-
 
       <section className="pt-20 pb-10 px-4">
       <h1 className="text-4xl font-semibold text-secondary mb-10">

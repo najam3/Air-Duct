@@ -67,9 +67,9 @@ font-weight: 400;
 
 
 .home {
-   background: url(../public/assets/pipeline-2.png) center no-repeat;
+   background: url(../public/assets/banner.png) center no-repeat;
    background-size: cover;
-   background-position: top;
+   background-position: 60%;
 }
 
  @media (min-width: 768px) and (max-width: 980px)  {

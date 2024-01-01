@@ -5,6 +5,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import LinkWithUnderLine from "../../components/LinkWithUnderLine";
 import OurClients from "../../components/OurClients";
 import FaqDropdown from "../../components/FaqDropdown";
+import { companyInfo } from "../../companyInfo";
 
 let faqs = [
     {
@@ -39,7 +40,7 @@ const KitchenExhaust = () => {
           "Restaurant fires occur every year and cause millions of dollars in property damage, injure customers, and sometimes result in fatalities. More than half of restaurant fires start in the kitchen, so keeping your kitchen grease-free and fire-safe is essential."
         }
         secondContent={
-          "At Atlantic Duct Cleaning, our team provides professional kitchen hood cleaning in accordance with IKECA (International Kitchen Cleaning Association), which is a highly specialized removal process of built-up grease, debris, and contaminants that accumulate in, on, and around the components of a kitchen hood exhaust system."
+          "At Duct Master, our team provides professional kitchen hood cleaning in accordance with IKECA (International Kitchen Cleaning Association), which is a highly specialized removal process of built-up grease, debris, and contaminants that accumulate in, on, and around the components of a kitchen hood exhaust system."
         }
         paraB={"pb-8"}
         sb={"mb-12"}
@@ -136,7 +137,7 @@ const KitchenExhaust = () => {
         <p>
           Get your kitchen back up to speed, obey the law, and diminish your
           health risks. Schedule kitchen exhaust cleaning service in VA or MD or
-          call (703) 435-4485 today!
+          text us {companyInfo.phoneNum} today!
         </p>
       </section>
       <Bar
@@ -252,8 +253,7 @@ const KitchenExhaust = () => {
             cycles, as well as minimize operational interruptions and the
             associated lost revenues. The type or volume of cooking frequency is
             a determining factor in how often you should clean your kitchen
-            exhaust system. Inspection frequency in the Northern Virginia &
-            Maryland area, as described by NFPA (National Fire Protection
+            exhaust system. Inspection frequency in the UNITED STATES, as described by NFPA (National Fire Protection
             Association) guidelines, must be:
           </p>
           <div className="flex gap-4 mb-6">
@@ -343,11 +343,11 @@ const KitchenExhaust = () => {
             The risks of not thoroughly cleaning your kitchen—without the help
             of a professional—are likely to outweigh any money saved. Once
             you’ve had your kitchen hood cleaned by a highly trained expert from
-            Atlantic Duct Cleaning, you’ll never make exhaust system cleaning a
+            Duct Master, you’ll never make exhaust system cleaning a
             DIY project again! Whether your business could benefit from monthly,
             quarterly, semiannual, or annual kitchen hood cleaning, Atlantic
             Duct Cleaning is the company to call. If you run a restaurant in
-            Maryland or Northern Virginia, don’t wait until an unexpected fire
+            America, don’t wait until an unexpected fire
             erupts on your property before you decide you need kitchen hood
             cleaning.
           </p>
@@ -361,7 +361,7 @@ const KitchenExhaust = () => {
           Schedule a commercial kitchen hood cleaning and call us today at (703)
           435-4485 or contact us online. In addition to commercial kitchen
           exhaust cleaning, our other commercial services include air duct
-          cleaning, dryer vent cleaning, and Aeroseal duct sealing.
+          cleaning, dryer vent cleaning, and Deep Duct Cleaning.
         </p>
       </section>
 

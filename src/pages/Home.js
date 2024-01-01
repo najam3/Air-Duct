@@ -15,7 +15,8 @@ import { companyInfo } from "../companyInfo";
 const Home = () => {
   const [scroll, setScrollPos] = useState(0)
   const [slideStates, setSlideStates] = useState([false, false, false]);
-  const {width} = useWindowResize();
+  const [slideStates2, setSlideStates2] = useState([false, false, false]);
+  const [slideStates3, setSlideStates3] = useState([false, false, false]);
   const handleScroll = () => {
     const position = window.scrollY;
     setScrollPos(position);
@@ -28,8 +29,25 @@ const Home = () => {
       return newStates;
     });
   }
+  function handleMouse2Enter(index) {
+    setSlideStates2((prev) => {
+      const newStates = [...prev];
+      newStates[index] = true;
+      return newStates;
+    });
+  }
+
+
   function handleMouseLeave(index) {
     setSlideStates((prev) => {
+      const newStates = [...prev];
+      newStates[index] = false;
+      return newStates;
+    });
+  }
+
+  function handleMouse2Leave(index) {
+    setSlideStates2((prev) => {
       const newStates = [...prev];
       newStates[index] = false;
       return newStates;
@@ -51,7 +69,7 @@ const Home = () => {
     {
       title: "Commercial Services",
       cta: "LEARN MORE",
-      image: "assets/geometric-building.png",
+      image: "assets/pipeline-3.png",
       overlay: {
         title: "Commercial Services",
         description:
@@ -190,8 +208,8 @@ const Home = () => {
               onMouseLeave={() => handleMouseLeave(index)}
               className={`card w-full sm:w-[100%] md:w-[450px] lg:w-[400px] rounded-2xl relative cursor-pointer`}
             >
-              <div>
-                <img src={card.image} className="w-full rounded-t-sm" alt="#" />
+              <div className="h-[300px]">
+                <img src={card.image} className="w-full h-full rounded-t-sm" alt="#" />
               </div>
               <div className="bg-white p-6 text-2xl font-semibold text-neutral-500 text-center">
                 <h2
@@ -310,14 +328,14 @@ const Home = () => {
           {dataTwo.map((cards, index) => (
             <div
               key={index}
-              onMouseEnter={() => handleMouseEnter(index)}
-              onMouseLeave={() => handleMouseLeave(index)}
+              onMouseEnter={() => handleMouse2Enter(index)}
+              onMouseLeave={() => handleMouse2Leave(index)}
               style={{
                 backgroundImage: `url(${cards.image})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
-              className="card rounded-md w-full min-h-screen md:min-h-[70vh] 2xl:min-h-[70vh] sm:w-[100%] md:w-[450px] lg:w-[30%] 2xl:w-[25%]  relative cursor-pointer"
+              className="card rounded-md w-full min-h-screen md:min-h-[500px] 2xl:min-h-[70vh] sm:w-[100%] md:w-[400px] lg:w-[40%] 2xl:w-[25%]  relative cursor-pointer"
             >
               {/* Remove this */}
               <div className="card-overlay min-h-[40vh] absolute bottom-0 flex items-end justify-center">
@@ -327,10 +345,10 @@ const Home = () => {
               </div>
               <div
                 className={`absolute w-full flex justify-between flex-col ${
-                  slideStates[index]
-                    ? "translate-y-[0px] opacity-100"
-                    : "pointer-events-none"
-                } transition-all duration-500 opacity-0 text-white px-4 py-8 bg-[#003b60e3] translate-y-[100%] h-[100%]`}
+                  slideStates2[index]
+                    ? "translate-y-[0%] opacity-100"
+                    : "pointer-events-none translate-y-[100%]"
+                } transition-all duration-500 opacity-0 text-white px-4 py-8 bg-[#003b60e3] h-[100%]`}
               >
                 <ul>
                   <h1 className="text-xl mb-6 font-semibold text-center">
@@ -367,7 +385,7 @@ const Home = () => {
         padding={"py-4"}
       />
       <section>
-        <img src="/assets/map-still-1.webp" className="w-full" alt="map" />
+        <img src="/assets/map-us.jpg" className="w-full" alt="map" />
       </section>
 
       <section className="px-4 py-16">
@@ -427,7 +445,6 @@ const Home = () => {
         src3={
           "/assets/edit-home-advisor-logo-screened-and-approved-homeadvisor-logo.webp"
         }
-        src4={"/assets/Deep Duct Cleaning-Logo-color.png"}
         src5={"/assets/iaqa-logo.jpg"}
       />
 
@@ -458,7 +475,7 @@ const Home = () => {
       <Brands
         src1={"/assets/AngiesList_SSA_2020_200x165.png"}
         src2={"/assets/al-2019.webp"}
-        src3={"/assets/PresidentsClub-wDeep Duct Cleaning.webp"}
+        src3={"/assets/PresidentsClub-wAeroseal.webp"}
         src4={"/assets/Angi-2021-Super-Service-Award.webp"}
       />
       <OurClients />
@@ -490,8 +507,8 @@ const Home = () => {
                 className={`absolute w-full flex justify-between flex-col ${
                   slideStates[index]
                     ? "translate-y-[0px] opacity-100"
-                    : "pointer-events-none"
-                } transition-all duration-500 opacity-0 text-white px-4 py-8 bg-[#003b60e3] translate-y-[100%] h-[100%]`}
+                    : "pointer-events-none translate-y-[100%]"
+                } transition-all duration-500 opacity-0 text-white px-4 py-8 bg-[#003b60e3] h-[100%]`}
               >
                 <ul>
                   <h1 className="text-xl mb-6 font-semibold text-center">

@@ -44,7 +44,7 @@ const CommDryerVent = () => {
   return (
     <>
       <SecondaryBanner
-        title={"COMMERCIAL DRYER VENT CLEANING IN NORTHERN VIRGINIA & MARYLAND"}
+        title={"COMMERCIAL DRYER VENT CLEANING IN THE UNITED STATES"}
         subtitle={"Dryer Duct Maintenance"}
         content={
           "Uncleaned dryer vents are the cause of a substantial number of damages, injuries, and deaths annually. According to the National Fire Protection Association, 29 percent of dryer-related fires are ignited by dust, fiber, or lint, and the leading cause of clothes dryer and washer fires is failure to clean the dryer vents. When these vents become damaged or dirty, they create resistance and increased pressure on the clothes dryer’s internal blower—which can result in the rising temperatures in the dryer system that can ignite the flammable lint!"
@@ -181,14 +181,14 @@ const CommDryerVent = () => {
                 <br />
                 <br />
                 For additional questions about commercial dryer vent cleaning in the
-                Northern Virginia and Maryland area, check out our FAQs or contact one
+                all over America, check out our FAQs or contact one
                 of the professionals at Atlantic Duct Cleaning and schedule service
                 online.
                 <br />
                 <br />
                 In addition to commercial dryer vent cleaning, our other commercial
                 services include air duct cleaning, kitchen exhaust cleaning, and
-                Aeroseal duct sealing.
+                Deep Duct Cleaning.
                 </p>
                 <img src="/assets/clean-duct.jpg" alt="Benefits of Dryer Vent Maintenance" className="w-1/2 mt-4 lg:mt-0 lg:w-[30%] mx-auto lg:mx-0 px-12"/>
             </div>
