@@ -111,7 +111,7 @@ const Footer = () => {
 
                             <div className='p-5 hover:-translate-y-[10px] hover:shadow-2xl transition-all duration-300 cursor-pointer rounded-none border-t-4 border-[#0000004d] bg-white shadow-xl mt-20 mx-auto w-full sm:w-[400px] flex-shrink relative'>
                             <div className='flex gap-6 items-center'>
-                                <img src='/assets/logo.jpg' alt='client' className='w-16' />
+                                <img src='/assets/duct-logo.png' alt='client' className='w-16' />
                                 <div>
                                     <h2 className='text-[#5d6f80] mb-3 text-xl font-bold'>Duct Master</h2>
                                     <div className='flex items-center'>
