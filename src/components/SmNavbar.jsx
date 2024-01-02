@@ -43,7 +43,7 @@ const SmNavbar = () => {
                   }}>
                   </button>
                   <Link to={'/'} className='m-auto block'>
-                        <img src="/assets/logo.jpg" alt="brand" className='w-52 ' />  
+                        <img src="/assets/duct-logo.png" alt="brand" className='w-52 py-4' />  
                   </Link>
                 </div>
             </div>

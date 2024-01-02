@@ -415,7 +415,7 @@ const Home = () => {
             </p>
           </div>
           <div className="mt-4 lg:mt-0 lg:self-end">
-            <img src="/assets/pentagon.webp" alt="#" className="w-full" />
+            <img src="/assets/pipeline-5.png" alt="#" className="w-full" />
           </div>
         </article>
         <ul className="mt-16">

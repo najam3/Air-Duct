@@ -24,13 +24,13 @@ const {pathname} = useLocation();
     <header className={`px-4 ${scrollPosition > 2 ? 'fixed animate-down w-full shadow-2xl bg-white z-[999]' : 'relative'}`}>
       <nav className={`flex justify-between`}>
         <Link to={'/'}>
-        <img src="/assets/logo.jpg" className={`${scrollPosition > 2 ? 'w-32' : 'w-52'} object-contain pb-[0.5em]`} alt="brand" />
+        <img src="/assets/duct-logo.png" className={`${scrollPosition > 2 ? 'w-40 my-4' : 'w-60 h-52'} object-contain pb-[0.5em]`} alt="brand" />
         </Link>
         <div className="h-full">
-          <div className="flex my-10 items-center gap-12">
+          <div className="flex my-10 items-center ms-auto justify-end gap-12">
             <button className="border-4 hover:bg-primary hover:text-white transition-colors duration-500 border-primary  text-primary  px-4 py-2">
               <Link to="/contact" className="font-semibold bug text-2xl">
-                RECEIVE ESTIMATE
+                CALL NOW
               </Link>
             </button>
             <button className="border-4 bug bg-secondary hover:shadow-2xl transition-shadow duration-500 border-secondary text-xl text-white  px-4 py-2">
